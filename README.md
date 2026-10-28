@@ -16,6 +16,8 @@ data/
     prompts_n714                    n714 中文提示词库(MIT)
     entries_shuaihui                ShuaiHui 仓库条目(许可未知, 仅供参考)
     tags_ffdkj_NN / tags_jio7_NN    Danbooru 标签(中英对照 / 分类)
+    tags_school_benign              校园类标签(良性部分, 见下方"范围与过滤")
+    prompts_n714_school_benign      n714 校园类词条(良性部分)
 scripts/build_db.py           从 JSONL.gz 重建 SQLite + FTS5
 docs/
   subcategories.md            子分类说明
@@ -46,3 +48,9 @@ select id,topic,source_url from collected_refs_fts join collected_refs r on r.id
 
 ## 范围与过滤
 收录前已用规则脚本逐条复查,命中者已剔除;过滤清单不公开。
+
+**校园类词条(诚实说明)**:`tags_school_benign`(标签)与 `prompts_n714_school_benign`(n714 词条)是此前因"校园类"标记而暂缓公开、
+后经二次筛选放出的校园/学校/校服类词条。规则(修订版):不含性相关词、擦边/内衣类词、其他类标记的,放出;其中含学段词(高中/中学/初中)、
+书包(randoseru)、洛丽塔时装、little idol 的,只要不含性/擦边/年龄指向词也放出。仍剔除:shota/loli 类低龄角色词、儿童/幼儿/未成年/小学/幼儿园等年龄指向词、
+性相关词、擦边词、命中其他类标记的。所以这部分是"校园类里不含性与低龄指向的那一部分",并非全部校园类词条;被剔除的不公开、不列清单。
+成人向的校园类条目不在本仓库发布。

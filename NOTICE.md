@@ -3,6 +3,13 @@
 ## 范围
 本仓库只含**一般向(正常向)**内容,位于 `data/general/`。姊妹仓库见 README。
 收录前已用规则脚本逐条复查,命中者已剔除。
+**校园类标签(school 标记)说明**:`tags_school_benign` 与 `prompts_n714_school_benign` 中的校园/学校/校服类词条,
+最初被标记为"校园类"并暂缓公开;后经二次筛选放出。**放出规则(修订版)**:
+- 保留:不含性相关词、不含擦边/内衣类词、不命中其他类标记的校园类词条;其中带学段词(高中/中学/初中、high school / middle school / junior high)、
+  书包/ランドセル(randoseru)、洛丽塔时装(Lolita fashion)、little idol 等词的,只要不含性/擦边/年龄指向词,也已放出。
+- 剔除:低龄角色类词(shota/loli 等)、儿童/幼儿/未成年/小学/幼儿园类年龄指向词、任何性相关词、擦边/内衣类词、命中其他类标记(非自愿、真人、兽、乱伦、偷拍等)的条目。
+- 性相关的校园类条目不在任何一个仓库发布。
+因此本仓库数据中会出现校服、学院、高中/中学、教室等一般向校园词汇,这是有意放出的,不是漏筛;被剔除的条目不公开、不列清单。
 
 ## 来源与许可
 - **ShuaiHui/nsfw-prompt-templates-asian**:<https://github.com/ShuaiHui/nsfw-prompt-templates-asian>

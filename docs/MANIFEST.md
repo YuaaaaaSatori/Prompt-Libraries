@@ -6,6 +6,7 @@
 | data/general/collected_refs.jsonl.gz | 113443 | 0d5ac456cfc8b3eb2a6e0782c0c0733a88947d0da633bfc2475520cb6ea5aa71 |
 | data/general/entries_shuaihui.jsonl.gz | 74459 | e42ee3c8be9649b0fedafbac7b48bb3a30e46f888f2af0604893fb8f5710c32d |
 | data/general/prompts_n714.jsonl.gz | 70603 | 0b51ae11d4503a2c8b79916d32b992238a39df50fcac6df0cc07c5020c73263f |
+| data/general/prompts_n714_school_benign.jsonl.gz | 901 | b8d4a92456e639047c4b5e66f601ff3c20c1fdc2482b2c50b5ef826f109ec8fd |
 | data/general/subcategories.jsonl.gz | 3237 | cb0e2f574d5cd7ca98028b16c410f344322e4d764980890d3b26cc7924d438e0 |
 | data/general/tags_ffdkj_01.jsonl.gz | 2079932 | 0c6d0752bcd7d808feb39505f35fd7ae3e16ed0bdeccb55e91a0589ea52948eb |
 | data/general/tags_ffdkj_02.jsonl.gz | 2035649 | 592e4c9bc3cab797ca8b17d5109d1169a9add91a3f9e7da283ddbca7dbd9df4e |
@@ -13,7 +14,8 @@
 | data/general/tags_ffdkj_04.jsonl.gz | 520789 | df09a7e3f91fad856845e66b3bea00c75c2a97066387e918b381b57ca911115f |
 | data/general/tags_jio7_01.jsonl.gz | 1038987 | 13c6f88bf1818d9c5abafc980a5dcd7ab7cf9ed0c424d556c91430f5cb0465f1 |
 | data/general/tags_jio7_02.jsonl.gz | 886116 | 783d0209e2a0a8be548a3bead47b045cc246e695b3818c13a60525ec6bea356e |
+| data/general/tags_school_benign.jsonl.gz | 81607 | 5b65099a5aa234782363432a8fc1dbe3be24431abf8ae5dcd435bbef3e10611d |
 | data/sources.jsonl.gz | 690 | 6ded76d097d080539d4193735d4f5c4577a4831d321a1633ee278ddcb3225440 |
 
-合计 8862625 字节(最大单文件 2079932 字节)。
+合计 8945133 字节(最大单文件 2079932 字节)。
 注:gzip 以 mtime=0 写出,重新导出得到相同内容。
