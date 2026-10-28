@@ -1,8 +1,8 @@
 # 声明(NOTICE)
 
-## 使用对象
-本仓库含有**成人向(nsfw)内容**,位于 `data/nsfw/`,仅限年满 18 周岁的成年人使用。一般向内容位于 `data/general/`,两者分目录存放,可只使用其中一个。
-所有收录内容均指向成年的虚构角色;不收录未成年、非自愿、偷拍、乱伦、人兽、真人相关内容,收录前已用规则脚本逐条复查,命中者已剔除。
+## 范围
+本仓库只含**一般向(正常向)**内容,位于 `data/general/`。姊妹仓库见 README。
+收录前已用规则脚本逐条复查,命中者已剔除。
 
 ## 来源与许可
 - **ShuaiHui/nsfw-prompt-templates-asian**:<https://github.com/ShuaiHui/nsfw-prompt-templates-asian>

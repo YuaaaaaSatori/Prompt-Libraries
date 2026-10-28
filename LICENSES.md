@@ -9,11 +9,11 @@
 
 | 来源 | 本仓库中的位置 | 许可 |
 |---|---|---|
-| n714/stable-diffusion-prompt-library-zh_CN | `data/*/prompts_n714.jsonl.gz` | MIT(全文见下) |
-| ffdkj/ffdkj-Danbooru_Tag-Chinese-English-Translation-Table | `data/*/tags_ffdkj_*.jsonl.gz` | MIT(全文见下) |
-| Jio7/danbooru-tags-classified (Hugging Face) | `data/*/tags_jio7_*.jsonl.gz` | MIT(其 README 元数据标注 `license: mit`,仓库未附 LICENSE 文件) |
-| ShuaiHui/nsfw-prompt-templates-asian | `data/*/entries_shuaihui.jsonl.gz` | **未知**(原仓库没有 LICENSE 文件),仅供参考,原作者提出要求即下架 |
-| 各网页/教程/仓库(collected_refs) | `data/*/collected_refs.jsonl.gz` | 见每条记录的 `license_label` 与 `source_url`;许可不明、官方文档、GPL/AGPL 来源只保留摘要与链接,不转载原文 |
+| n714/stable-diffusion-prompt-library-zh_CN | `data/general/prompts_n714.jsonl.gz` | MIT(全文见下) |
+| ffdkj/ffdkj-Danbooru_Tag-Chinese-English-Translation-Table | `data/general/tags_ffdkj_*.jsonl.gz` | MIT(全文见下) |
+| Jio7/danbooru-tags-classified (Hugging Face) | `data/general/tags_jio7_*.jsonl.gz` | MIT(其 README 元数据标注 `license: mit`,仓库未附 LICENSE 文件) |
+| ShuaiHui/nsfw-prompt-templates-asian | `data/general/entries_shuaihui.jsonl.gz` | **未知**(原仓库没有 LICENSE 文件),仅供参考,原作者提出要求即下架 |
+| 各网页/教程/仓库(collected_refs) | `data/general/collected_refs.jsonl.gz` | 见每条记录的 `license_label` 与 `source_url`;许可不明、官方文档、GPL/AGPL 来源只保留摘要与链接,不转载原文 |
 
 ## MIT 许可全文
 
