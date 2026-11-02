@@ -2,10 +2,10 @@
 
 阿燐整理的提示词资料:对公开教程、文章、仓库、实测的摘要、短提示词短语与来源链接。**许可不明或限制性许可的来源只保留摘要与链接,不转载原文。**
 
-共 565 条。按「大类 → 子分类」排列;每条给出主题、来源链接、来源许可标注。摘要、提示词全文见 `data/general/collected_refs.jsonl.gz`。
+共 590 条。按「大类 → 子分类」排列;每条给出主题、来源链接、来源许可标注。摘要、提示词全文见 `data/general/collected_refs.jsonl.gz`。
 
 
-## 1 场景主题(47 条)
+## 1 场景主题(50 条)
 
 
 ### 1.1 室内与居所场景(3)
@@ -20,7 +20,7 @@
 - **#306 红叶词的陷阱：tunnel 会变石隧道** — [AI見本帳 『紅葉』のプロンプト見本（タグの注意点）](https://ai-mihon.com/article/20261020-a5c2ffc1) · 教程/文章 · 许可标注:未标注
 - **#452 蒸汽朋克先定主角（人物或背景），再分开金属与布革、暖光与青绿** — [Mitsune SD スチームパンクプロンプト一覧](https://mitsune-ai.com/stable-diffusion-steampunk-prompts/) · 教程/文章 · 许可标注:未标注
 
-### 1.3 天气与季节(24)
+### 1.3 天气与季节(26)
 
 - **#151 季节画四要素：服装、母题、光线、天气统一** — [りんかイラスト 季節・天気タグガイド](https://rinkaillust.com/prompt-library/guide/season-weather/?lang=en) · 教程/文章 · 许可标注:未标注
 - **#152 天气天候标签 46 种一览** — [で、AIはなんて？ 天気・天候のプロンプト46種](https://ai-nante.com/weather-prompt-catalog/) · 教程/文章 · 许可标注:未标注
@@ -30,9 +30,11 @@
 - **#316 冬景基础：snowing（降雪）与 snow（积雪）二选一** — [Rinka Illust Winter & Snow Scene Prompts](https://rinkaillust.com/prompt-library/guide/winter-scene-prompts/?lang=en) · 实测 · 许可标注:未标注
 - **#317 冬景五种场面组合与常见失败** — [Rinka Illust Winter & Snow Scene Prompts](https://rinkaillust.com/prompt-library/guide/winter-scene-prompts/?lang=en) · 实测 · 许可标注:未标注 · 次要子分类:1.2
 - **#319 雪原白气会消失：靠暗天空和逆光把白气拉到前景** — [怠目藍成 note「白い息の美人」](https://note.com/darume_ainaru/n/na5d7cbbe0be9?hl=en) · 实测 · 许可标注:未标注 · 次要子分类:5.1
+- **#360 夜景与雨街词表：夜光来源、湿路反射、雨势与道具** — [Mitsune SD 夜景・雨の街プロンプト一覧](https://mitsune-ai.com/stable-diffusion-night-rain-city-prompts/) · 教程/文章 · 许可标注:未标注 · 次要子分类:1.2、5.2
 - **#404 秋天场景：autumn 只给季节感，要再写树种、落叶在哪、窗外景色** — [Mitsune SD 秋・紅葉プロンプト一覧](https://mitsune-ai.com/stable-diffusion-autumn-prompts/) · 教程/文章 · 许可标注:未标注
 - **#437 赛博朋克不再千篇一律：逐个点名 3–4 个光源、写“高价×廉价”对比、用雾给描写划边界** — [AhaPrompt Cyberpunk プロンプト](https://ahaprompt.app/ja/prompts/category/cyberpunk) · 实测 · 许可标注:未标注 · 次要子分类:5.1
 - **#439 樱花背景按 场所 × 时段/天气 × 开花阶段 组合** — [AI見本帳『桜』のプロンプト見本 場所・時間帯](https://ai-mihon.com/article/20260922-e57b44b5) · 教程/文章 · 许可标注:未标注
+- **#449 圣诞场景三原则：点名圣诞专属物件、写出冷暖色温对比、指定媒介与年代** — [Promptkoi 12 Winter Holiday AI Prompts (2026)](https://promptkoi.com/blog/ai-winter-holiday-prompts/) · 实测 · 许可标注:未标注 · 次要子分类:1.4、1.5
 - **#455 夏祭り：画面里至少要有屋台、提灯、人群之一，blurred crowd behind her 最关键** — [PixAI 夏祭り・浴衣のAIイラスト｜8月のシーン別プロンプト集](https://blog.pixai.art/ja/summer-anime-prompt-august-scenes-ja/) · 教程/文章 · 许可标注:未标注
 - **#458 夏祭小物与摊位词表：りんご飴 candy apple、金魚すくい goldfish scooping、線香花火 senkou hanabi** — [itdtm Stable Diffusionで使える着物・浴衣に関する呪文](https://itdtm.com/stablediffusion-kimono-prompts/) · 教程/文章 · 许可标注:未标注 · 次要子分类:13.3
 - **#479 星空风景：星空本身不成画，一定要放地面主角；指定“星点不拖尾”、广角与地平线位置** — [Nano Banana プロンプト集 #96 星空と天の川](https://nanobanana.jp/p/astro/) · 教程/文章 · 许可标注:未标注
@@ -47,10 +49,11 @@
 - **#648 印象派：四样都要写——可见的松散笔触、不混合的“破色”、某一刻的光与天气、户外日常题材；别加 highly detailed / 8k / sharp，它们会把画拉回照片** — [artpromptsgenerator.org / Geniea](https://artpromptsgenerator.org/impressionist-ai-art-prompts/) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.4
 - **#662 复古旅行海报：颜色上限就是风格本身——连纸色在内 4–6 块平涂色、硬边、无雾无景深无柔影；提示里写“印刷方式”而不是描写风景** — [PSDmate Blog](https://psdmate.com/blog/vintage-travel-poster-design-guide) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.3
 
-### 1.4 奇幻与节日主题(3)
+### 1.4 奇幻与节日主题(4)
 
 - **#261 奇幻场景样例：图书馆魔女 / 沉没遗迹 / 哥特城堡** — [SirenRender Library Witch（4 seeds）](https://prompts.sirenrender.com/illustrious/library-witch/) · 实测 · 许可标注:未标注
 - **#293 万圣节基础标签：南瓜/糖果/装扮/头饰** — [rin87 ハロウィンイラストのプロンプト集](https://rin87.com/halloween-prompt/) · 实测 · 许可标注:未标注
+- **#296 节日插画五要素模板：主角/动作/场所/画风/色与比例** — [フルスタック・デザイナー ハロウィンAI画像プロンプト12選](https://engineering.webstudio168.jp/blog/ai-media/halloween/) · 教程/文章 · 许可标注:未标注 · 次要子分类:15.1
 - **#635 奇幻地图：公式“风格 + 地理内容 + 细节”，只放 3–5 个核心元素；世界图用斜俯视（oblique）、战斗图用正俯视加网格；地名留空框，后期再排字** — [FluxNote](https://fluxnote.io/guides/fantasy-maps-prompts) · 教程/文章 · 许可标注:未标注 · 次要子分类:15.1
 
 ### 1.5 场景设计方法与背景标签(14)
@@ -70,10 +73,10 @@
 - **#673 透明底出图（Qwen-Image-2.1 RGBA）：开头固定写“This is an RGBA image with transparency.”，只描述主体不描述场景；别写棋盘格、白底或落地投影，否则会画出不透明背景** — [Pellucen / Qwen 模型卡](https://pellucen.com/qwen-image-2-1/prompt-guide) · 教程/文章 · 许可标注:未标注 · 次要子分类:15.1
 - **#679 体素场景：整张图只用一种体素尺度，细节靠“方块怎么摆”而不是混用更小的格子；三到六个主轮廓、缩略图可读，负面压掉平滑低多边形与像素贴片** — [PromptAtlas](https://promptatlas.co/prompts/voxel-art-prompt) · 教程/文章 · 许可标注:未标注
 
-## 2 景别构图(113 条)
+## 2 景别构图(117 条)
 
 
-### 2.1 景别与取景(9)
+### 2.1 景别与取景(10)
 
 - **#6 景别与角度分轴 + 近景不写脚部（Anima/Illustrious 构图规则）** — [note.com mono.works](https://note.com/tasty_cougar8018/n/n713f5a8c1218) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.2、15.1
 - **#7 cowboy shot：最万能的取景** — [りんかワールド Prompt Library](https://rinkaillust.com/prompt/cowboy-shot/) · 教程/文章 · 许可标注:未标注
@@ -84,8 +87,9 @@
 - **#49 NovelAI 文档：取景/视角标签与取景陷阱** — [NovelAI Docs (官方文档，版权保留，仅摘要+短标签)](https://docs.novelai.net/en/image/tutorial-charactercreation/) · 官方文档 · 许可标注:官方文档版权保留(仅摘要) · 次要子分类:2.2
 - **#60 Anima 指南：相机块 + 空间散文** — [Civitai 公开文章 (无明确许可，仅摘要+短标签)](https://civitai.com/articles/35368/the-ultimate-anima-prompting-guidebook-all-you-need) · 教程/文章 · 许可标注:无明确许可(仅摘要/链接) · 次要子分类:2.2、2.3
 - **#138 景别/视角/镜头类型中文词典** — [阿里云百炼 文生图提示词指南](https://www.alibabacloud.com/help/zh/model-studio/text-to-image-prompt) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.2、2.3
+- **#320 前景虚化 blurry foreground：先写景别再加** — [Rinka Illust blurry foreground 解説](https://rinkaillust.com/prompt/blurry-foreground/) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.3、2.4
 
-### 2.2 机位与视角(33)
+### 2.2 机位与视角(34)
 
 - **#1 镜头角度 vs 景别：两个独立维度** — [Runway Resources](https://runway.com/resources/ai-camera-angle-shot-type-tips) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.1
 - **#2 垂直角度：from above / from below / 鸟瞰 / 虫瞻** — [Promgrammer Camera Angles](https://www.promgrammer.com/en/guides/camera-angles) · 实测 · 许可标注:未标注
@@ -100,6 +104,7 @@
 - **#166 from inside / from outside 与肩越镜头** — [スタジオ真榊 画像生成プロンプト大辞典（illustrious向け）（画角/構図）](https://studiomasakaki.com/articles/10051055/) · 教程/文章 · 许可标注:未标注
 - **#187 SD 构图十基础：仰拍/俯拍/平视/鸟瞰/拉近拉远** — [note Carrera（構図編：カメラ視点と構図の基本10選）](https://note.com/carrera_ai_lab/n/n40c7a5b4813e?hl=en) · 教程/文章 · 许可标注:未标注
 - **#236 角度词的“字面污染”：worms eye / birds eye / hero view** — [Medium Edmond Yip（Control of Camera Distance and Angles）](https://medium.com/stablediffusion/stable-diffusion-enables-the-control-of-camera-distance-and-angles-using-prompts-53ca4d1c9981) · 实测 · 许可标注:未标注
+- **#325 伞的角度与雨景细节：伞下不湿、水滴从伞缘落、透明伞要写透过去看到什么** — [AI TOOL LAB AI画像で傘を差すと崩れる 柄と手の指定（角度と雨）](https://aska-if.com/2325.html) · 教程/文章 · 许可标注:未标注 · 次要子分类:1.3
 - **#401 羽翼 11 种：羽的种类标签 + 颜色/大小，斜后方三分之四视角最能看到翼根** — [AI見本帳『羽』のプロンプト見本 11種](https://ai-mihon.com/article/20261008-be9f96f1) · 教程/文章 · 许可标注:未标注
 - **#415 电影景别 10 档 + 角度 10 种：每个角度对应一种情绪读法** — [GitHub OSideMedia/higgsfield-ai-prompt-skill（MIT）image-shots](https://github.com/OSideMedia/higgsfield-ai-prompt-skill/blob/main/skills/higgsfield-image-shots/SKILL.md) · 仓库 · 许可标注:MIT · 次要子分类:2.1
 - **#416 静止图里的“镜头运动”：dolly zoom、rack focus、bullet time 用来暗示动感** — [GitHub OSideMedia/higgsfield-ai-prompt-skill（MIT）camera movements](https://github.com/OSideMedia/higgsfield-ai-prompt-skill/blob/main/skills/higgsfield-image-shots/SKILL.md) · 仓库 · 许可标注:MIT · 次要子分类:2.1、2.3
@@ -121,7 +126,7 @@
 - **#754 德国表现主义电影（Caligari 风）：要写“布景本身是歪的”——倾斜的墙、锯齿形不对称建筑、画在墙和地上的阴影，加极端黑白反差；只写 Dutch angle 会得到一个普通房间配斜机位** — [Visual Sandbox / Imaginode / Wikipedia](https://visualsandbox.com/techniques/cinema/genre-looks/german-expressionism/) · 教程/文章 · 许可标注:未标注
 - **#770 爱德华·霍珀（Edward Hopper）式画面：用几块大矩形（墙、窗、路面、天空）搭底，再放一条斜线（投影、屋檐或吧台边）带动视线；只用一个定向光（低角度阳光、窗光或单盏灯）拉出长而硬的影子，删掉多余细节、留大片空白，人物独处、安静、不看镜头** — [Made Good Designs / Quiet Canvas / prompt-inspiration.com](https://madegooddesigns.com/edward-hopper/) · 实测 · 许可标注:未标注 · 次要子分类:5.1、8.4
 
-### 2.3 镜头焦段与景深(26)
+### 2.3 镜头焦段与景深(27)
 
 - **#11 景深与背景虚化：depth of field / bokeh** — [LULINAworks 构图词典](https://lulinaworks.com/dictionary/composition) · 教程/文章 · 许可标注:未标注
 - **#131 七种景深手法：焦点要和受光区重合** — [PixAI Blog 大師之路 Part 5（景深）](https://blog.pixai.art/zh/cinematic-lighting-depth-ai-art-zh/) · 教程/文章 · 许可标注:未标注
@@ -129,6 +134,7 @@
 - **#189 焦段×光圈模板：[焦段][光圈]+主体+背景+光** — [Floniks（Lens and Focal Length Guide）](https://floniks.com/learn/cinematography/lens-and-focal-length-guide) · 教程/文章 · 许可标注:未标注
 - **#190 镜头词是风格暗示，不是光学计算** — [DreamDrive（Midjourney Lens and Depth of Field）](https://www.dreamdrive.ai/learn/midjourney/midjourney-lens-depth-of-field/) · 教程/文章 · 许可标注:未标注
 - **#191 镜头提示词的常见错误** — [The Pixel Paradox（Camera Lens Prompt Cheatsheet）](https://thepixelparadox.com/camera-lens-prompt/) · 教程/文章 · 许可标注:未标注
+- **#322 三种背景虚化写法：均匀虚化 / 渐进景深 / 三层夹心** — [で、AIはなんて？ 背景をぼかすAIプロンプト大全](https://ai-nante.com/background-blur-ai/) · 教程/文章 · 许可标注:未标注
 - **#323 景深排错：blurry 只放负面；背景不虚是人物太远** — [Rinka Illust Depth of Field Prompts](https://rinkaillust.com/prompt-library/guide/lens-effect-prompts/?lang=en) · 教程/文章 · 许可标注:未标注
 - **#496 美食图五个常见错：正面光、没有“主角瞬间”、过饱和、桌面材质没写、全画面都清晰** — [Morphed Nano Banana Prompts for Food Photography（常见错误）](https://morphed.app/blog/nano-banana-prompts-for-food-photography) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.1
 - **#499 建筑外观图像摄影师那样写：verticals kept parallel 防梯形变形，别用 tilt-shift（会变微缩），阴天光最显材质** — [Prompt Architects 30 Architectural Rendering Prompts](https://prompt-architects.com/blog/283-30-ai-prompts-for-architectural-rendering-and-visualisation) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.2、2.6
@@ -187,8 +193,9 @@
 - **#737 极光（aurora borealis）写实：颜色按高度分层——下部电光绿、上缘紫、强暴时最高处才有红，绝不出现黄橙；点名形态（帘幕/弧/冕状）、写极光把雪地和水面染绿，并放一个暗而有细节的前景（暖窗木屋、松林、冰湖）** — [ZSky AI / aurora.is](https://zsky.ai/blog/ai-aurora-prompts) · 教程/文章 · 许可标注:未标注 · 次要子分类:1.3、5.1
 - **#764 风格派 / 新造型主义（De Stijl, 1917）：只有黑色横竖粗线、白底和少量纯红黄蓝色块，矩形必须明显大小不等、白色占多数；不要斜线和曲线，海报文字要放进网格里自己的矩形，否则会变成“蒙德里安画 + 打字标题”** — [Visual Sandbox / Director's Lookbook / ArtMovements / media.io / Filmora](https://visualsandbox.com/techniques/print/design-movements/de-stijl/) · 教程/文章 · 许可标注:未标注
 
-### 2.5 镜中与反射(3)
+### 2.5 镜中与反射(4)
 
+- **#196 映り込み三式：瞳中风景 / 水面镜像 / 窗玻璃人脸** — [で、AIはなんて？ 瞳・水面・ガラスへの映り込みプロンプト](https://ai-nante.com/reflection-prompts-ai/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.4
 - **#197 映り込み通用词与反射面清单** — [で、AIはなんて？ 瞳・水面・ガラスへの映り込みプロンプト（共通タグ）](https://ai-nante.com/reflection-prompts-ai/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.4
 - **#265 镜中怪异构图：能做到与做不到的** — [Kawaii Prompt Lab（18 Mirror & Reflection Horror Setups）](https://kawaiipromptlab.com/en/tips/mirror-reflection-horror-test/) · 实测 · 许可标注:未标注
 - **#712 Y2K 千禧铬金属：铬字要写“镜面反射里有一条地平线（上亮下暗）”，否则只得到平灰金属色；再加半透明玻璃蓝面板、星芒镜头光和全局柔和外发光** — [Visual Sandbox](https://visualsandbox.com/techniques/print/screen-and-digital/y2k-chrome/) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.3、8.1
@@ -207,8 +214,9 @@
 ## 4 服装专项(20 条)
 
 
-### 4.1 日常服饰与款式词典(10)
+### 4.1 日常服饰与款式词典(11)
 
+- **#72 n714 服装词库（上装/外套/和风/职业）** — [GitHub n714/stable-diffusion-prompt-library-zh_CN (MIT)](https://github.com/n714/stable-diffusion-prompt-library-zh_CN) · 仓库 · 许可标注:MIT
 - **#159 和服构文：[着物名],[带名],[装饰/材质],[纹样/氛围]** — [で、AIはなんて？ 和服プロンプトまとめ](https://ai-nante.com/kimono-prompts/) · 教程/文章 · 许可标注:未标注
 - **#160 连衣裙/和服类型词典** — [UruruAILab 服装プロンプト一覧](https://ururuailab.com/sd-prompt-clothes/) · 教程/文章 · 许可标注:未标注
 - **#294 万圣节装扮 11 种：halloween costume 作底才像“扮装”** — [AI見本帳 『ハロウィン仮装』のプロンプト見本](https://ai-mihon.com/article/20261004-c07dd3f2) · 教程/文章 · 许可标注:未标注 · 次要子分类:1.4
@@ -237,10 +245,9 @@
 
 - **#158 服装选择顺序：场面→氛围→形状，袜长要区分** — [METACAMP：ABYSS 衣装プロンプト総合ガイド](https://meta-camp.net/clothing-guide-prompt/) · 教程/文章 · 许可标注:未标注 · 次要子分类:4.1
 
-### 4.7 露出程度与半遮边界(2)
+### 4.9 其他/待细分(1)
 
-- **#613 折纸（origami）：一张纸折成——可见折痕与多面体平面、正面彩色而边缘露出白色背面、柔和方向光让每道折都有影子；不是低多边形 3D，也不是剪纸拼贴** — [Director's Lookbook](https://directorslookbook.app/look/origami-fold/) · 教程/文章 · 许可标注:未标注
-- **#710 彩色铅笔画：写“定向排线 + 纸纹从笔触间露出 + 压光（burnish）混色 + 暗部细排线”；最常被误画成蜡笔或数码喷枪** — [Director's Lookbook](https://directorslookbook.app/look/coloured-pencil/) · 教程/文章 · 许可标注:未标注
+- **#450 机甲少女：只写 mecha girl 不够，要把装甲、兵装、内部机构、推进器逐项点名** — [で、AIはなんて？ メカ少女を描くプロンプト集](https://ai-nante.com/mecha-girl-prompts/) · 教程/文章 · 许可标注:未标注
 
 ## 5 光影氛围(91 条)
 
@@ -360,7 +367,7 @@
 
 - **#348 风词 26 条件实测：fluttering 一词同时吹动裙子和头发** — [Kawaii Prompt Lab 風になびく髪と服 26条件検証](https://kawaiipromptlab.com/tips/wind-effect-descriptor-test/) · 实测 · 许可标注:未标注
 
-## 6 姿势动作(49 条)
+## 6 姿势动作(50 条)
 
 
 ### 6.1 站立与全身姿态(9)
@@ -381,10 +388,11 @@
 - **#273 座姿三要素 + 难出座法的补强词（实测）** — [web制作屋の画像生成AI研究部 座るポーズのプロンプト](https://img-gene-ai.raizzenet.com/image-generation-ai-prompts-for-sitting-poses/) · 实测 · 许可标注:未标注
 - **#274 抱膝坐与屈膝坐的标签组合（多模型对照）** — [iPentec 膝を抱えて座るポーズのプロンプト](https://www.ipentec.com/document/ai-image/image-generation-prompt-sitting-with-bent-knees) · 教程/文章 · 许可标注:未标注
 
-### 6.3 躺卧与睡姿(3)
+### 6.3 躺卧与睡姿(4)
 
 - **#66 n714 姿势词库（体位/视线/手势/整体）** — [GitHub n714/stable-diffusion-prompt-library-zh_CN (MIT)](https://github.com/n714/stable-diffusion-prompt-library-zh_CN) · 仓库 · 许可标注:MIT · 次要子分类:6.1、6.5
 - **#284 睡姿十种 + 瞳色词会让角色睁眼** — [で、AIはなんて？ 寝る姿勢のプロンプト10選](https://ai-nante.com/sleeping-pose-prompts/) · 教程/文章 · 许可标注:未标注
+- **#285 睡姿要加权：on back/on side 1.3、俯卧 1.4 + 负面** — [AI見本帳 『寝る』のプロンプト見本](https://ai-mihon.com/article/20261003-93d8fa11) · 教程/文章 · 许可标注:未标注
 - **#286 躺姿 Illustrious 实测：upside-down 与俯卧抬脚** — [イラ裏レシピ 寝姿・横たわるポーズ（Illustrious-XL）](https://iraura.net/situation/lying-guide/) · 实测 · 许可标注:未标注
 
 ### 6.4 动态与动作(12)
@@ -436,12 +444,13 @@
 - **#263 绕开姿势名的偏见：改写成身体的物理位置** — [Kawaii Prompt Lab（Muscular Woman Princess-Carrying a Man）](https://kawaiipromptlab.com/en/tips/muscular-woman-princess-carry/) · 教程/文章 · 许可标注:未标注 · 次要子分类:6.6
 - **#303 “coherent anatomy”无效：用具体手位稳定手指** — [Kawaii Prompt Lab coherent anatomy 検証](https://kawaiipromptlab.com/tips/coherent-anatomy-test/) · 教程/文章 · 许可标注:未标注 · 次要子分类:6.5
 
-## 7 表情眼神(24 条)
+## 7 表情眼神(26 条)
 
 
-### 7.1 基础情绪表情(11)
+### 7.1 基础情绪表情(12)
 
 - **#20 NovelAI V4.5 表情标签热门清单** — [tags.gallery](https://tags.gallery/v4-5/face) · 实测 · 许可标注:未标注
+- **#69 n714 表情词库（情绪与笑容细分）** — [GitHub n714/stable-diffusion-prompt-library-zh_CN (MIT)](https://github.com/n714/stable-diffusion-prompt-library-zh_CN) · 仓库 · 许可标注:MIT · 次要子分类:7.2
 - **#86 Jio7 分类库：表情类高频词** — [Hugging Face Jio7/danbooru-tags-classified (MIT)](https://huggingface.co/datasets/Jio7/danbooru-tags-classified) · 标签表/词频 · 许可标注:MIT
 - **#252 基本表情八类速查：喜/怒/哀/惊/恐/嫌恶/轻蔑/无表情** — [で、AIはなんて？ 表情のプロンプト集（喜怒哀楽から繊細な感情まで）](https://ai-nante.com/ai-illustration-expression-prompts/) · 实测 · 许可标注:未标注
 - **#253 细腻情绪：困惑、思考、斜眼与歪头** — [で、AIはなんて？ 表情のプロンプト集（喜怒哀楽から繊細な感情まで）（困惑・戸惑い）](https://ai-nante.com/ai-illustration-expression-prompts/) · 教程/文章 · 许可标注:未标注
@@ -453,9 +462,10 @@
 - **#386 表情混在一起时的五步调整 + 带原因的表情短语** — [Mitsune SD 表情・顔パーツ・瞳プロンプト一覧](https://mitsune-ai.com/stable-diffusion-expression-prompts/) · 教程/文章 · 许可标注:未标注
 - **#548 角色一致性用“锚点段 + 镜头变量段”两段式：锚点原样复用，只换镜头段；三视图、表情九宫格、换装都套同一格式** — [fal-ai-community/skills character-design prompt patterns（许可未声明）](https://github.com/fal-ai-community/skills/blob/main/skills/character-design/references/prompt-patterns.md) · 教程/文章 · 许可标注:未标注
 
-### 7.2 笑容与害羞红晕(3)
+### 7.2 笑容与害羞红晕(4)
 
 - **#21 害羞红晕强度分级** — [マヨナカログ（搜索摘要）](https://mayonaka-blog.com/novelai-facial-expression/) · 教程/文章 · 许可标注:未标注
+- **#254 笑容强度阶梯：嘴角→露齿→身体动起来** — [で、AIはなんて？ 笑う・笑顔の表情プロンプト集](https://ai-nante.com/smile-prompts/) · 教程/文章 · 许可标注:未标注
 - **#342 泪的种类：streaming tears / crying smile / crying with eyes open / 彩色泪** — [note.com 悠～ゆう～ 表情のプロンプト（哀）（Illustrious）](https://note.com/yukyu_haruka/n/n9bba17116b47) · 实测 · 许可标注:未标注 · 次要子分类:7.4
 - **#384 害羞脸拆成眉、眼、口三部分来调** — [AIキャラ生成ラボ 恥ずかしそうな表情](https://aitool.meinashi.info/stable-diffusion-embarrassed-expression/) · 教程/文章 · 许可标注:未标注
 
@@ -475,10 +485,10 @@
 - **#385 ジト目 jitome：多数新模型能出，旧模型会偏 Q 版** — [iPentec ジト目を表現するプロンプト](https://www.ipentec.com/document/ai-image/image-generation-prompt-jitome) · 实测 · 许可标注:未标注
 - **#772 木雕浮雕（wood relief carving）：要像“一块木头雕出来的”，关键是木纹连续穿过背景和凸起的形体、分出三层清楚的深度、大面积用宽圆凿刀面、细 V 形刀痕只留给焦点（眼睛、叶脉），高点打磨圆润，配掠射光；避免烙画线、激光般完美的槽和塑料光泽** — [PromptAtlas / woodcarvingbasics / Carveco](https://promptatlas.co/prompts/wood-carving-prompt) · 实测 · 许可标注:未标注
 
-## 8 风格胶片(74 条)
+## 8 风格胶片(77 条)
 
 
-### 8.1 画风与媒介(30)
+### 8.1 画风与媒介(33)
 
 - **#73 n714 起手提示词：Photo/Lineart/CG/画质词** — [GitHub n714/stable-diffusion-prompt-library-zh_CN (MIT)](https://github.com/n714/stable-diffusion-prompt-library-zh_CN) · 仓库 · 许可标注:MIT · 次要子分类:18.1
 - **#88 Jio7 分类库：年代/画风 (style) 标签** — [Hugging Face Jio7/danbooru-tags-classified (MIT)](https://huggingface.co/datasets/Jio7/danbooru-tags-classified) · 标签表/词频 · 许可标注:MIT
@@ -496,10 +506,13 @@
 - **#564 Runway Gen-4 Image 官方风格关键词集：Glitchcore、Dreamy、Lo-Fi 80 年代日本杂志、Vaporwave、Modern、Horror** — [Runway Help Center: Gen-4 Image Prompting Guide](https://help.runwayml.com/hc/en-us/articles/35694045317139-Gen-4-Image-Prompting-Guide) · 实测 · 许可标注:未标注 · 次要子分类:8.3
 - **#590 波普艺术：Ben-Day 网点必须放大到一眼可见，粗黑描边 + 平涂红黄蓝 + 主体后面一块纯色；细网点只会像普通印刷** — [Visual Sandbox: Pop Art](https://visualsandbox.com/techniques/print/art-movements/pop-art/) · 教程/文章 · 许可标注:未标注
 - **#594 工笔画（gongbi）：细而匀的线描 + 多层薄敷矿物色 + 绢本；不要写成“水墨画”，二者一紧一松** — [DogPrompt: Gongbi 工笔画](https://dogprompt.com/dictionary/chinese-art-styles/gongbi/) · 教程/文章 · 许可标注:未标注
+- **#597 Frutiger Aero：自然 + 友好的圆润科技 + 光泽半透明材质，蓝绿高饱和、明亮日光；一个主角物件、干净地平线，别画真实系统界面** — [PromptAtlas: Frutiger Aero Aesthetic Prompt](https://promptatlas.co/prompts/frutiger-aero-aesthetic-prompt) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.4
+- **#613 折纸（origami）：一张纸折成——可见折痕与多面体平面、正面彩色而边缘露出白色背面、柔和方向光让每道折都有影子；不是低多边形 3D，也不是剪纸拼贴** — [Director's Lookbook](https://directorslookbook.app/look/origami-fold/) · 教程/文章 · 许可标注:未标注
 - **#674 WPA 1930 年代丝网海报：3–5 色、纸白当最亮值、动物山川简化成单色剪影、地平线放下三分之一、天空占上方；渐变要么没有要么是粗网点** — [VideoCue / Director's Lookbook](https://videocue.io/looks/wpa-poster-1930s-flat) · 教程/文章 · 许可标注:未标注 · 次要子分类:1.3、2.4
 - **#682 90 年代赛璐珞动画风：关键是“扁平角色 + 有笔触的手绘背景”的反差——角色两调平涂、阴影硬边，头发大块加一条白色高光带，水粉背景，颗粒铺满全画面，4:3** — [Konyomi](https://konyomi.com/styles/90s-anime-style) · 实测 · 许可标注:未标注 · 次要子分类:8.3
 - **#683 动画风要先选“年代与制作档次”：单写 anime 会把 TV 动画、剧场版、80 年代 OVA 平均成最平的一种；赛璐珞要写“硬的明暗交界线 + 固定色调数”，并把角色和背景分开描述** — [TaleCrafters](https://talecrafters.studio/supply-drop/animation-prompting) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.7
 - **#707 孟菲斯设计（Memphis，1980s 米兰）：颜色要“故意撞色”、图形要散乱不对齐；模型默认会给出配色和谐、对称摆放的普通 80 年代复古** — [Visual Sandbox / Director's Lookbook](https://visualsandbox.com/techniques/print/design-movements/memphis/) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.4
+- **#710 彩色铅笔画：写“定向排线 + 纸纹从笔触间露出 + 压光（burnish）混色 + 暗部细排线”；最常被误画成蜡笔或数码喷枪** — [Director's Lookbook](https://directorslookbook.app/look/coloured-pencil/) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.2
 - **#717 构成主义海报（Russian Constructivism）：只用红、黑、奶油三色，所有元素沿一条约 30° 的强对角线走，人物做高反差黑白照片拼贴、背景是平涂几何；别写成“星星拳头”式泛复古宣传画** — [Director's Lookbook / Pokanop / PromptAtlas](https://directorslookbook.app/look/constructivism/) · 教程/文章 · 许可标注:未标注
 - **#718 瑞士国际主义风格（Swiss Style）：严格模数网格、左对齐右侧参差的无衬线字三种字号、黑白加一个平涂强调色，留出约三分之一空白；模型最常犯的错是居中排字和加装饰** — [Visual Sandbox / The Cascade Hub / Design for AI](https://visualsandbox.com/techniques/print/design-movements/swiss-style/) · 教程/文章 · 许可标注:未标注
 - **#719 克里姆特金箔风（Klimt / 维也纳分离派）：脸和手写实、周围全是平面装饰；金色要写成“镶嵌小块 + 金属箔片”而不是黄色，并分区控制花纹密度（皮肤最少、衣服中等、背景最多）** — [Russell Collection / Media.io / Filmora](https://russell-collection.com/how-to-paint-like-klimt/) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.3、8.4
@@ -578,10 +591,10 @@
 
 - **#435 左右不同与特殊妆：mismatched eyeshadow、two-tone eyeshadow、hikimayu、aegyo sal** — [aiaicreate Stable Diffusionのメイクプロンプト一覧](https://aiaicreate.com/sd-prompt-makeup/) · 教程/文章 · 许可标注:未标注 · 次要子分类:17.2
 
-## 10 发型饰品(26 条)
+## 10 发型饰品(28 条)
 
 
-### 10.1 发型发色与刘海(13)
+### 10.1 发型发色与刘海(14)
 
 - **#19 发型标签分组（Danbooru 发型分类）** — [Latent Tags (Danbooru)](https://tags.latent.moe/en/g/hair_styles) · 教程/文章 · 许可标注:未标注
 - **#51 NovelAI 文档：发长/发型/刘海/呆毛分类** — [NovelAI Docs (官方文档，版权保留，仅摘要+短标签)](https://docs.novelai.net/en/image/tutorial-charactercreation/) · 官方文档 · 许可标注:官方文档版权保留(仅摘要)
@@ -592,6 +605,7 @@
 - **#148 刘海细分标签速查** — [note みし [SDXL] Pony系,Illustrious系髪タグまとめ（前髪）](https://note.com/mith_mmk/n/n4c5f0dd4ce49) · 教程/文章 · 许可标注:未标注
 - **#149 NovelAI 发型大全：长度分级与侧发** — [で、AIはなんて？ 髪型のプロンプト大全【NovelAI】](https://ai-nante.com/novelai-hairstyle-prompt-list/) · 教程/文章 · 许可标注:未标注
 - **#150 偏男性向发型与短发细分** — [note やまこー NovelAIプロンプト ヘアースタイル編](https://note.com/koseki_yamaki/n/n363ab35d4833) · 实测 · 许可标注:未标注
+- **#327 BREAK 的正确切分：按“不想混在一起的组”切，不要切同一个人** — [なないろ note Forge Couple 使い方とプロンプト基本構文](https://note.com/nonb0716/n/n02ce7117ac22?hl=en) · 实测 · 许可标注:未标注
 - **#346 风吹头发基础：floating hair + wind 一起写才确实** — [りんかイラスト 髪がなびくプロンプト](https://rinkaillust.com/prompt-library/guide/wind-hair-prompts/) · 教程/文章 · 许可标注:未标注
 - **#378 髪飾り：先定发型再只加一个饰品，颜色写成“色+饰品名”一个词** — [Rinka Illust 髪飾りのプロンプト一覧](https://rinkaillust.com/prompt-library/guide/hair-accessory-prompts/) · 教程/文章 · 许可标注:未标注 · 次要子分类:10.2
 - **#380 发饰会改发型：hair ribbon / scrunchie / hair bobbles 会把头发变成扎起来** — [freecraftlog 髪型プロンプト一覧115種（Illustrious 実測）](https://freecraftlog.com/comfyui-hairstyle-prompt-guide/) · 教程/文章 · 许可标注:未标注 · 次要子分类:10.2
@@ -614,11 +628,12 @@
 - **#224 帽子戴法与装饰：backwards / tilted / unworn** — [rin87 帽子のプロンプト集](https://rin87.com/sd-hat-prompt/) · 教程/文章 · 许可标注:未标注
 - **#405 秋日散步的动作短语：踩落叶、对光看叶子、扶帽、整理围巾** — [Mitsune SD 秋・紅葉プロンプト一覧（動作）](https://mitsune-ai.com/stable-diffusion-autumn-prompts/) · 教程/文章 · 许可标注:未标注
 
-### 10.5 兽耳与尾巴(4)
+### 10.5 兽耳与尾巴(5)
 
 - **#297 兽耳六词簇：[物种] kemonomimi 锚点 + 负面只写 no human ears** — [Hugging Face NoobAI-XL 讨论区（kemonomimi 测试数据）](https://huggingface.co/Laxhar/noobai-XL-1.0/discussions/1) · 标签表/词频 · 许可标注:未标注
 - **#298 尾巴动作词与背面构图的副作用** — [Hugging Face NoobAI-XL 讨论区（尾巴行为标签）](https://huggingface.co/Laxhar/noobai-XL-1.0/discussions/1) · 标签表/词频 · 许可标注:未标注
 - **#299 身体兽耳 vs 头箍：cat ears 与 cat ear headband 分开写** — [Mitsune 獣耳・しっぽプロンプト一覧](https://mitsune-ai.com/stable-diffusion-animal-ears-tail-prompts/) · 教程/文章 · 许可标注:未标注
+- **#363 动物同框故障表：长出猫耳、猫变多、猫和手融在一起** — [Rinka Illust 动物同框故障表（另参考 Reddit r/StableDiffusion 讨论）](https://rinkaillust.com/prompt-library/guide/animal-pet-prompts/) · 教程/文章 · 许可标注:未标注
 - **#647 贴纸能不能真的切：形状要紧凑成一块、避开细长突出物（触角、胡须、细衬线）、白边约 3mm（75mm 贴纸）、出血 2–3mm；提示里写 simple compact shape, no small details** — [Logobundle / Atomm](https://logobundle.app/guides/what-makes-a-good-sticker) · 教程/文章 · 许可标注:未标注
 
 ### 10.9 其他/待细分(1)
@@ -651,10 +666,10 @@
 
 - **#259 脸上沾食物与食物小道具：cream on face / crumbs** — [で、AIはなんて？ 食べる・食事シーンのプロンプト一覧（食べ物との位置関係）](https://ai-nante.com/eating-prompt/) · 教程/文章 · 许可标注:未标注
 
-## 15 提示词结构与技巧(40 条)
+## 15 提示词结构与技巧(42 条)
 
 
-### 15.1 整体结构与顺序(21)
+### 15.1 整体结构与顺序(22)
 
 - **#22 Civitai 官方入门：提示词三段式结构** — [Civitai Education](https://education.civitai.com/civitais-prompt-crafting-guide-part-1-basics/) · 教程/文章 · 许可标注:未标注
 - **#62 Crody 六段式提示词结构 (Illustrious/NoobAI)** — [note.com Crody 公开文章 (无明确许可，仅摘要)](https://note.com/crody/n/nd11513bd8b48) · 教程/文章 · 许可标注:无明确许可(仅摘要/链接) · 次要子分类:17.2
@@ -663,6 +678,7 @@
 - **#361 背景句子模板的用法：时间段词要换掉，背景压过人物就删形容词** — [なないろ note 背景・シーンプロンプト180選](https://note.com/nonb0716/n/n09a043737220) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.2
 - **#389 FLUX 提示词填空表：每行选一个短语按顺序拼** — [fluxnote Flux Prompts guide](https://fluxnote.io/guides/flux-prompts) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.3
 - **#462 编辑指令三段式：目标→改成什么→保留清单；不写保留句时同色物件会被连带改色** — [Layer Help Prompt FLUX for image editing](https://help.layer.ai/articles/1419455313-prompt-flux-for-image-editing) · 实测 · 许可标注:未标注
+- **#463 Kontext 常见翻车与对策：用 change/replace 代替 transform，用具体描述代替 she/it** — [ComfyUI Docs FLUX.1 Kontext Pro and Max Image Editing](https://docs.comfy.org/tutorials/partner-nodes/black-forest-labs/flux-1-kontext) · 教程/文章 · 许可标注:未标注
 - **#466 FLUX JSON 结构化提示：scene / subjects[] / style / technical / colors 五块管多人与位置** — [black-forest-labs/skills json-structured-prompting.md（MIT）](https://github.com/black-forest-labs/skills/blob/master/skills/flux-image-best-practices/rules/json-structured-prompting.md) · 教程/文章 · 许可标注:MIT · 次要子分类:8.1
 - **#481 Qwen Image 2：LLM 编码器读自然语言，一般图 1–3 句，文字逐段加双引号并各写样式** — [fal How to Use Qwen Image 2](https://fal.ai/learn/tools/how-to-use-qwen-image-2) · 教程/文章 · 许可标注:未标注
 - **#483 Qwen 官方改写提示词的写法：一句开场定媒介风格主体，再用 8–14 个位置短语从边到角“走一遍画面”** — [QwenLM Qwen-Image-2.1 prompt_rewrite system_prompt_t2i（license: Other，仅记要点）](https://github.com/QwenLM/Qwen-Image-2.1/blob/main/prompt_rewrite/prompts/system_prompt_t2i.txt) · 教程/文章 · 许可标注:未标注
@@ -705,16 +721,18 @@
 - **#264 提示词增删实验：哪些词可以删，哪些值得加** — [Kawaii Prompt Lab（Trim vs Boost Across 10 Themes）](https://kawaiipromptlab.com/en/tips/prompt-refinement/) · 实测 · 许可标注:未标注
 - **#443 inpaint 接缝三原因分开处理：Mask blur、Inpaint area/padding、Masked content + denoise** — [AIとつくる仕事場 Stable Diffusion inpaintの継ぎ目を消すマスクぼかし設定](https://blog.kxkxks.com/sd-inpaint-mask-blur-seam-settings/) · 教程/文章 · 许可标注:未标注
 
-### 15.5 标签资源与分类参考(1)
+### 15.5 标签资源与分类参考(2)
 
+- **#23 约 900 条构图/角度/姿势标签表（资源线索）** — [note.com 月ヶ瀬そら](https://note.com/sora_tsukigase/n/n9500741037fd) · 资源线索 · 许可标注:未标注 · 次要子分类:2.2
 - **#90 TagSDanbooru：两级中文分类思路** — [GitHub s0upderef/TagSDanbooru (无 license，仅链接+要点)](https://github.com/s0upderef/TagSDanbooru) · 仓库 · 许可标注:无明确许可(仅摘要/链接)
 
-## 16 多角色与互动语法(14 条)
+## 16 多角色与互动语法(15 条)
 
 
-### 16.1 多角色提示词结构(3)
+### 16.1 多角色提示词结构(4)
 
 - **#65 Anima 管线：人数标签 + 成年锚点 + 位置绑定** — [GitHub Tomiigo/anima-prompt-pipeline (MIT)](https://github.com/Tomiigo/anima-prompt-pipeline) · 仓库 · 许可标注:MIT · 次要子分类:16.4、19.1
+- **#194 多角色提示词结构：质量词，共用场景 BREAK 角色A BREAK 角色B** — [Tensor.Art 文章（Multi-character Prompting & Inpainting）](https://tensor.art/articles/824178785285887267) · 教程/文章 · 许可标注:未标注
 - **#372 NovelAI V5 多角色：更多角色栏、画布上点位置、标签+日语句子混写** — [るんるんスケッチ NovelAI マルチキャラクタープロンプト解説](https://runrunsketch.net/nai-multichara-prompt/) · 教程/文章 · 许可标注:未标注 · 次要子分类:16.3、17.1
 - **#394 多人画面：视线要分开写“谁看什么”，生成后按八项逐一检查** — [Qiita 2人以上のAI漫画生成が崩れる理由](https://qiita.com/Sato-310/items/406f3b08c8c3a849295b) · 教程/文章 · 许可标注:未标注
 
@@ -738,20 +756,22 @@
 
 - **#165 solo 与 solo focus 的区别、防分身** — [スタジオ真榊 画像生成プロンプト大辞典（illustrious向け）](https://studiomasakaki.com/articles/10051055/) · 教程/文章 · 许可标注:未标注
 
-## 17 模型特性与参数(34 条)
+## 17 模型特性与参数(36 条)
 
 
-### 17.1 NovelAI 特性(3)
+### 17.1 NovelAI 特性(4)
 
 - **#368 职业服装词表（NovelAI V4.5）：职业名 + _uniform + 一两件标志物** — [NovelAI 5ch Wiki 服飾/制服](https://seesaawiki.jp/nai_ch/d/%c9%fe%be%fe/%c0%a9%c9%fe) · 教程/文章 · 许可标注:未标注 · 次要子分类:4.1
+- **#369 NovelAI V5：日语可用，但英文标签更具体** — [ATS Project NovelAI プロンプトの作り方](https://app.ats-project.net/novelai-guide/prompt-basics/) · 教程/文章 · 许可标注:未标注
 - **#370 NovelAI V5 与 V4.5 的差别：细节密度、自然语言与标签效力** — [TAGs NovelAI タグ見本帳 V4.5 / V5](https://tags.gallery/) · 教程/文章 · 许可标注:未标注
 - **#371 从 V4.5 迁移到 NovelAI V5 的五步核对** — [イツキ AI Laboratory NovelAI V5 移行の5ステップ](https://note.com/itsuki_ailab/n/na3cc80de57a0?hl=en) · 实测 · 许可标注:未标注
 
-### 17.2 Illustrious/NoobAI/Anima 特性(4)
+### 17.2 Illustrious/NoobAI/Anima 特性(5)
 
 - **#330 三大底模的质量串与参数对照：Illustrious / NoobAI / Pony** — [ModelTrends Illustrious, NoobAI and Pony prompting](https://modeltrends.ai/ai-model-guides/illustrious-pony-prompting-tags) · 教程/文章 · 许可标注:未标注
 - **#334 WAI-Illustrious 九条规则实测：真正起作用的只有分级、成年、内容词** — [SirenRender Illustrious Prompt Guide: 9 Rules Tested](https://prompts.sirenrender.com/illustrious/prompt-guide/) · 实测 · 许可标注:未标注
 - **#343 Illustrious 涙表现 10 种对照：sobbing 要配 open mouth 才和 crying 拉开差距** — [イラ裏レシピ 悲しみ・涙表現（Illustrious-XL）](https://iraura.net/situation/sad-guide/) · 实测 · 许可标注:未标注
+- **#396 WAI-Illustrious 参数要点：CFG 5–7、用 LoRA 降到 3.5–5、负面加 3d 更平涂** — [note れん WAI-illustrious 基本メモ](https://note.com/ren_ai_coach/n/n2fb066b01801) · 教程/文章 · 许可标注:未标注 · 次要子分类:17.3
 - **#494 HunyuanImage 3.0：主体与动作先写，再写画质风格、构图视角、光影氛围、技术参数；官方改写原则“客观、物理一致、由总到分”** — [Tencent-Hunyuan/HunyuanImage-3.0（Hunyuan Community License）](https://github.com/Tencent-Hunyuan/HunyuanImage-3.0/blob/main/Hunyuan-Image3.md) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.4
 
 ### 17.3 采样参数与画幅(20)
@@ -790,7 +810,7 @@
 - **#461 FLUX Kontext 编辑：简单直接、明说什么不变、一次只改一处（BFL 官方 skills，MIT）** — [black-forest-labs/skills flux1-models.md（MIT）](https://github.com/black-forest-labs/skills/blob/master/skills/flux-image-best-practices/rules/flux1-models.md) · 教程/文章 · 许可标注:MIT
 - **#577 Recraft 官方实务技巧：理解差就换通用风格或降低 Artistic level；Logo 文字太僵就开“避免文字”；内容贴边用 Frame+外扩；脸手用 Creative Upscale；矢量用 recraftv3_vector** — [Recraft Docs: Prompting and image generation / Vector art](https://www.recraft.ai/docs/best-practices/prompting-and-image-generation) · 教程/文章 · 许可标注:未标注
 
-## 18 质量与负面词(16 条)
+## 18 质量与负面词(19 条)
 
 
 ### 18.1 质量头与画质词(2)
@@ -798,8 +818,10 @@
 - **#331 NoobAI 质量档位=人气百分位，年代标签决定画风年代** — [Local AI Master Illustrious vs NoobAI](https://localaimaster.com/blog/best-local-anime-image-model) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.1、17.2
 - **#575 FLUX.1 Krea Dev：写“真实的一刻＋光从哪来＋相机胶片”，别写 masterpiece/8k；guidance 4、28–32 步、1–1.5MP，无负面提示** — [ModelTrends.ai: FLUX.1 Krea Dev guide](https://modeltrends.ai/ai-model-guides/flux-krea-dev-guide) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.3、17.3
 
-### 18.2 负面词(13)
+### 18.2 负面词(15)
 
+- **#74 n714 负面提示词：解剖/肢体/质量分组** — [GitHub n714/stable-diffusion-prompt-library-zh_CN (MIT)](https://github.com/n714/stable-diffusion-prompt-library-zh_CN) · 仓库 · 许可标注:MIT
+- **#332 NoobAI 负面要排除兽人类：mammal / anthro / furry** — [Local AI Master Illustrious vs NoobAI（负面词）](https://localaimaster.com/blog/best-local-anime-image-model) · 教程/文章 · 许可标注:未标注
 - **#333 负面词要短：从空开始，只加看到的 2–3 个问题** — [AI Gallery Stable Diffusion Negative Prompts](https://aigallery.app/guides/negative-prompts-guide/) · 教程/文章 · 许可标注:未标注
 - **#373 负面提示词的原理：CFG=1 的蒸馏模型完全无效** — [Kawaii Prompt Lab ネガティブプロンプト解説](https://kawaiipromptlab.com/tips/negative-prompt-guide/) · 教程/文章 · 许可标注:未标注
 - **#390 负面提示词不是固定文：先检查有没有否定掉正面要的东西** — [SeaArt Illustrious Danbooruタグプロンプト設計論](https://www.seaart.ai/ja/articleDetail/d97hdste878c739epi30) · 实测 · 许可标注:未标注
@@ -814,6 +836,19 @@
 - **#649 印象派的“不要”：不是后印象派的旋涡笔触，也不是厚厚的刮刀堆料；笔触要小、轻、快，避开硬轮廓、黑色重阴影与平光** — [Director's Lookbook / NanoPrompts](https://directorslookbook.app/look/impressionism/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.7
 - **#652 极简画面的负面词要比平时长一些（但别超过约 20 个）：no clutter, no props, no background objects, no texture, no grain, no vignette, no lens flare……逐个测试是否真有压制效果** — [Floniks](https://floniks.com/learn/prompting/minimalism-and-negative-space-prompts) · 实测 · 许可标注:未标注
 
+### 18.3 分级与尺度标签(1)
+
+- **#335 分级标签是最强单标签：general / sensitive / nsfw / explicit** — [SirenRender Illustrious Prompt Guide（rating tag）](https://prompts.sirenrender.com/illustrious/prompt-guide/) · 实测 · 许可标注:未标注
+
 ### 18.9 其他/待细分(1)
 
 - **#550 Risograph 常见失败与修法：颜色超过两种→重复“只两种油墨加纸色”；太干净→要错位、不匀墨、纸尘；错位太大→加 subtle** — [Naviya Blog: Risograph Print AI Prompts](https://www.naviya.chat/en/blog/risograph-print-ai-prompts) · 教程/文章 · 许可标注:未标注
+
+## 19 年龄与体型锚点(3 条)
+
+
+### 19.1 成年角色锚点(3)
+
+- **#4 成年角色锚点与负面词（避免学生/低龄漂移）** — [Promgrammer Camera Angles](https://www.promgrammer.com/en/guides/camera-angles) · 实测 · 许可标注:未标注 · 次要子分类:18.2
+- **#171 成年脸锚点：1woman / 1lady / mature female 与负面年龄词** — [スタジオ真榊 画像生成プロンプト大辞典（illustrious向け）（ネガティブ）](https://studiomasakaki.com/articles/10051055/) · 教程/文章 · 许可标注:未标注 · 次要子分类:18.2
+- **#336 成年锚点实测：1girl 最显小，mature female 明确是成年女性** — [SirenRender Illustrious Prompt Guide（adult tag）](https://prompts.sirenrender.com/illustrious/prompt-guide/) · 实测 · 许可标注:未标注
