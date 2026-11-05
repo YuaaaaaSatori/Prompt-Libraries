@@ -2,10 +2,10 @@
 
 阿燐整理的提示词资料:对公开教程、文章、仓库、实测的摘要、短提示词短语与来源链接。**许可不明或限制性许可的来源只保留摘要与链接,不转载原文。**
 
-共 594 条。按「大类 → 子分类」排列;每条给出主题、来源链接、来源许可标注。摘要、提示词全文见 `data/general/collected_refs.jsonl.gz`。
+共 610 条。按「大类 → 子分类」排列;每条给出主题、来源链接、来源许可标注。摘要、提示词全文见 `data/general/collected_refs.jsonl.gz`。
 
 
-## 1 场景主题(50 条)
+## 1 场景主题(52 条)
 
 
 ### 1.1 室内与居所场景(3)
@@ -20,7 +20,7 @@
 - **#306 红叶词的陷阱：tunnel 会变石隧道** — [AI見本帳 『紅葉』のプロンプト見本（タグの注意点）](https://ai-mihon.com/article/20261020-a5c2ffc1) · 教程/文章 · 许可标注:未标注
 - **#452 蒸汽朋克先定主角（人物或背景），再分开金属与布革、暖光与青绿** — [Mitsune SD スチームパンクプロンプト一覧](https://mitsune-ai.com/stable-diffusion-steampunk-prompts/) · 教程/文章 · 许可标注:未标注
 
-### 1.3 天气与季节(26)
+### 1.3 天气与季节(28)
 
 - **#151 季节画四要素：服装、母题、光线、天气统一** — [りんかイラスト 季節・天気タグガイド](https://rinkaillust.com/prompt-library/guide/season-weather/?lang=en) · 教程/文章 · 许可标注:未标注
 - **#152 天气天候标签 46 种一览** — [で、AIはなんて？ 天気・天候のプロンプト46種](https://ai-nante.com/weather-prompt-catalog/) · 教程/文章 · 许可标注:未标注
@@ -48,6 +48,8 @@
 - **#612 太阳朋克（solarpunk）：每个生态元素都要有可见的功能（遮阴、集水、种粮、栖息地、发电），写低层步行尺度的社区日常与维修，而不是玻璃塔上贴绿植** — [PromptAtlas](https://promptatlas.co/prompts/solarpunk-art-prompt) · 教程/文章 · 许可标注:未标注
 - **#648 印象派：四样都要写——可见的松散笔触、不混合的“破色”、某一刻的光与天气、户外日常题材；别加 highly detailed / 8k / sharp，它们会把画拉回照片** — [artpromptsgenerator.org / Geniea](https://artpromptsgenerator.org/impressionist-ai-art-prompts/) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.4
 - **#662 复古旅行海报：颜色上限就是风格本身——连纸色在内 4–6 块平涂色、硬边、无雾无景深无柔影；提示里写“印刷方式”而不是描写风景** — [PSDmate Blog](https://psdmate.com/blog/vintage-travel-poster-design-guide) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.3
+- **#789 日本绞染 Shibori：只写 shibori 会得到泛泛的蓝色花纹，必须点名技法——板缔 itajime（折叠夹板，几何方块/三角镜像留白）、岚 arashi（缠杆压褶，斜向风雨条纹）、蜘蛛 kumo（揪起扎紧，同心蛛网圈）、鹿子 kanoko（小点）；留白边缘要有不规则的渗色，完美对称和激光切边是最常见的假** — [PromptKoi / MFA Boston / Pixova / Magic Eraser / Pattern Weaver](https://promptkoi.com/prompts/stable-diffusion/shibori-folded-indigo-cloth/) · 教程/文章 · 许可标注:未标注
+- **#800 藏传唐卡 Thangka：要写清“媒介+线+色+边框”——矿物颜料画在上浆打磨的棉布上、细金线压在平涂的青金石蓝与孔雀石绿之上、程式化卷云与雪山、严格对称、织锦装裱边；宗教图像（本尊、坛城、手印、经文）不能凭空拼造，借风格时把形式语言放在山水、云、鹿、鹤上** — [Director's Lookbook / videocue / styleatlas 风格谱](https://directorslookbook.app/look/tibetan-thangka/) · 实测 · 许可标注:未标注 · 次要子分类:8.1
 
 ### 1.4 奇幻与节日主题(4)
 
@@ -73,7 +75,7 @@
 - **#673 透明底出图（Qwen-Image-2.1 RGBA）：开头固定写“This is an RGBA image with transparency.”，只描述主体不描述场景；别写棋盘格、白底或落地投影，否则会画出不透明背景** — [Pellucen / Qwen 模型卡](https://pellucen.com/qwen-image-2-1/prompt-guide) · 教程/文章 · 许可标注:未标注 · 次要子分类:15.1
 - **#679 体素场景：整张图只用一种体素尺度，细节靠“方块怎么摆”而不是混用更小的格子；三到六个主轮廓、缩略图可读，负面压掉平滑低多边形与像素贴片** — [PromptAtlas](https://promptatlas.co/prompts/voxel-art-prompt) · 教程/文章 · 许可标注:未标注
 
-## 2 景别构图(118 条)
+## 2 景别构图(122 条)
 
 
 ### 2.1 景别与取景(10)
@@ -89,7 +91,7 @@
 - **#138 景别/视角/镜头类型中文词典** — [阿里云百炼 文生图提示词指南](https://www.alibabacloud.com/help/zh/model-studio/text-to-image-prompt) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.2、2.3
 - **#320 前景虚化 blurry foreground：先写景别再加** — [Rinka Illust blurry foreground 解説](https://rinkaillust.com/prompt/blurry-foreground/) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.3、2.4
 
-### 2.2 机位与视角(34)
+### 2.2 机位与视角(36)
 
 - **#1 镜头角度 vs 景别：两个独立维度** — [Runway Resources](https://runway.com/resources/ai-camera-angle-shot-type-tips) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.1
 - **#2 垂直角度：from above / from below / 鸟瞰 / 虫瞻** — [Promgrammer Camera Angles](https://www.promgrammer.com/en/guides/camera-angles) · 实测 · 许可标注:未标注
@@ -125,6 +127,8 @@
 - **#735 机顶直闪编辑风（direct flash editorial）：一盏闪光灯在机顶直打、不加柔光不反射，白天按天空曝光让蓝天保持深色、黄昏环境光欠一档；身后硬影是画面一部分，广角贴近低机位、构图故意“有点错”** — [Omoro Direct Flash Editorial / imageat](https://www.omoro.io/photography/direct-flash-editorial) · 教程/文章 · 许可标注:未标注 · 次要子分类:1.3、5.2
 - **#754 德国表现主义电影（Caligari 风）：要写“布景本身是歪的”——倾斜的墙、锯齿形不对称建筑、画在墙和地上的阴影，加极端黑白反差；只写 Dutch angle 会得到一个普通房间配斜机位** — [Visual Sandbox / Imaginode / Wikipedia](https://visualsandbox.com/techniques/cinema/genre-looks/german-expressionism/) · 教程/文章 · 许可标注:未标注
 - **#770 爱德华·霍珀（Edward Hopper）式画面：用几块大矩形（墙、窗、路面、天空）搭底，再放一条斜线（投影、屋檐或吧台边）带动视线；只用一个定向光（低角度阳光、窗光或单盏灯）拉出长而硬的影子，删掉多余细节、留大片空白，人物独处、安静、不看镜头** — [Made Good Designs / Quiet Canvas / prompt-inspiration.com](https://madegooddesigns.com/edward-hopper/) · 实测 · 许可标注:未标注 · 次要子分类:5.1、8.4
+- **#791 错视画 Trompe-l'œil / “破框”构图：先写清一个平面载体（广告牌、窗框、手机屏、画框、墙面），再写主体越过边界的具体动作（探身、伸手、踏出、一角翻出），配低机位强制透视和夸张的近大远小；成败在于单一光源下的接触阴影和投到画框外的投影** — [DIVE / ArtStyles / Magic Eraser / Patternful](https://go-dive.net/how-to-create-ai-art-that-jumps-off-the-screen/) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.4、2.6
+- **#794 莫卧儿细密画 Mughal miniature：四件事一起写才不会变成泛“古代东方画”——印度-波斯宫廷题材（帝王、驯鹰人、花园、狩猎）、宝石色加金箔点缀、高地平线的扁平俯视空间与侧脸人物、繁复花卉金边；它和波斯细密画的区别是写实建模的脸和写生的动植物** — [Morphic / Director's Lookbook / ArtStyles / bluprompts / Codextroop Prompt Library](https://morphic.com/resources/images/mughal-miniature-images) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.1
 
 ### 2.3 镜头焦段与景深(27)
 
@@ -156,7 +160,7 @@
 - **#732 Hasselblad 中画幅数码质感：写机身 + 焦段光圈 + “HNCS 自然色、细腻影调过渡、宽动态范围”，再补可见毛孔与具体布光；点名相机的作用是给模型色彩科学和光学参照，镜头参数比机身更关键** — [Miraflow / Hasselblad Medium Format / Legnext](https://miraflow.ai/blog/how-to-make-ai-images-look-like-real-photos-prompt-tricks) · 教程/文章 · 许可标注:未标注
 - **#745 棱镜摄影（prism）：把透明三棱镜贴近镜头、让一条棱边对准强点光源（太阳、路灯、无罩灯泡）才会出彩虹光带，阴天散射光做不出来；棱镜只“爬进”画面一角，主体照常曝光、光带和倒影作为引导线或幽灵般的分身** — [Adorama 42West / llplab / PetaPixel / Jake Hicks](https://www.adorama.com/alc/8-prism-photography-tips-and-ideas/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.1
 
-### 2.4 构图法则与画幅(35)
+### 2.4 构图法则与画幅(37)
 
 - **#81 nai5-prompting 插画构图法：先问“第一眼看什么”** — [GitHub Miint-Sunny/nai5-prompting (GPL-3.0，仅概述，不摘录)](https://github.com/Miint-Sunny/nai5-prompting) · 仓库 · 许可标注:GPL-3.0(仅概述/不摘录) · 次要子分类:15.1、16.1
 - **#119 三分法构图：主体放三分线/交点并描述剩余画面** — [AutoWeeb Blog](https://autoweeb.com/blog/how-to-create-the-rule-of-thirds-for-ai-anime-composition) · 教程/文章 · 许可标注:未标注
@@ -193,6 +197,8 @@
 - **#737 极光（aurora borealis）写实：颜色按高度分层——下部电光绿、上缘紫、强暴时最高处才有红，绝不出现黄橙；点名形态（帘幕/弧/冕状）、写极光把雪地和水面染绿，并放一个暗而有细节的前景（暖窗木屋、松林、冰湖）** — [ZSky AI / aurora.is](https://zsky.ai/blog/ai-aurora-prompts) · 教程/文章 · 许可标注:未标注 · 次要子分类:1.3、5.1
 - **#764 风格派 / 新造型主义（De Stijl, 1917）：只有黑色横竖粗线、白底和少量纯红黄蓝色块，矩形必须明显大小不等、白色占多数；不要斜线和曲线，海报文字要放进网格里自己的矩形，否则会变成“蒙德里安画 + 打字标题”** — [Visual Sandbox / Director's Lookbook / ArtMovements / media.io / Filmora](https://visualsandbox.com/techniques/print/design-movements/de-stijl/) · 教程/文章 · 许可标注:未标注
 - **#778 达达照片蒙太奇拼贴（Dada photomontage）：要“剪”不要“融”——每块碎片保留白色纸边和轻微投影、故意错乱比例（小身体大头、比楼还大的手）、随机角度、勒索信式混排字、新闻灰加黑加一点红；先定一个核心矛盾，避免整齐网格和平滑合成** — [Visual Sandbox / Director's Lookbook / LetzAI Atlas / PromptAtlas](https://visualsandbox.com/techniques/print/art-movements/dada-collage/) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.2
+- **#784 印度马杜巴尼画（Madhubani / Mithila painting）：粗黑双线勾形、线内填细密平行排线和点、每个空隙都塞满鱼、孔雀、莲花和花草，平涂天然色（朱红、姜黄、靛蓝、叶绿、黑）在手工纸上，加几何或花卉边框；不要写成泛印度纹样或曼陀罗，也别照搬神像与仪式构图** — [Director's Lookbook / AI Image Prompt Ideas / Midlibrary / PromptAtlas](https://directorslookbook.app/look/madhubani-painting/) · 实测 · 许可标注:未标注
+- **#802 中国木版年画（杨柳青、桃花坞）：三条必须写——传统五色平涂不渐变、构图塞满不留白（horror vacui）、粗黑均匀的木版轮廓线；再加产地名、木版套色的轻微错版和宣纸纹理，并用 Chinese 而不是 Oriental，否则会画成干净白底的水彩插画或东方主义画** — [FlowPix / DogPrompt / 共绩算力 / 数字侨民](https://www.flowpixai.com/ai-art/ai-folk-culture-painting.html) · 教程/文章 · 许可标注:未标注
 
 ### 2.5 镜中与反射(4)
 
@@ -212,7 +218,7 @@
 - **#709 拜占庭圣像（Byzantine icon）：蛋彩画在木板上、抛光金箔底、正面静止人物与扁平光环、程式化的衣褶高光线和反向透视；不是彩色玻璃也不是文艺复兴写实** — [Director's Lookbook](https://directorslookbook.app/look/byzantine-icon/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.1、8.1
 - **#752 中世纪泥金装饰手抄本（illuminated manuscript）：金箔是必写项——没有 gold leaf 就只是“中世纪插画”；再写陈年犊皮纸、历史化首字母、藤蔓边框与页边怪兽、矿物颜料名和扁平透视，只写 medieval painting 会跑成文艺复兴油画** — [ArtStyles / pokanop AI Prompts / Morphic](https://artstyles.com/guides/how-to-draw-illuminated-manuscript-art-style) · 教程/文章 · 许可标注:未标注
 
-## 4 服装专项(21 条)
+## 4 服装专项(22 条)
 
 
 ### 4.1 日常服饰与款式词典(11)
@@ -229,7 +235,7 @@
 - **#431 旗袍同义词实测：china dress / qipao / cheongsam 出图无差，qipao 最省 token** — [Kawaii Prompt Lab チャイナドレス検証 china dress vs qipao vs cheongsam](https://kawaiipromptlab.com/tips/china-dress-test/) · 实测 · 许可标注:未标注
 - **#456 浴衣衣襟要右前（从观者看呈小写 y），左右翻转后几乎必错** — [PixAI 夏祭り・浴衣（衿の合わせ）](https://blog.pixai.art/ja/summer-anime-prompt-august-scenes-ja/) · 教程/文章 · 许可标注:未标注
 
-### 4.2 面料与材质(6)
+### 4.2 面料与材质(7)
 
 - **#381 丝带的结法、材质与系的位置：从整齐蝴蝶结到快松开的状态** — [で、AIはなんて？ リボンの種類・位置・巻き方](https://ai-nante.com/ribbon-prompt-guide/) · 教程/文章 · 许可标注:未标注 · 次要子分类:10.1
 - **#407 连裤袜与长筒袜：tights 不透、pantyhose 薄透，用 sheer / opaque / seamed 控制质感** — [UruruAILab タイツ・ストッキングのプロンプト](https://ururuailab.com/sd-prompt-socks-shoes/) · 教程/文章 · 许可标注:未标注
@@ -237,6 +243,7 @@
 - **#432 旗袍先定领、袖、丈三件事，再加花纹与小物；面料词 brocade / satin / velvet** — [Mitsune SD チャイナドレスプロンプト一覧](https://mitsune-ai.com/stable-diffusion-qipao-prompts/) · 教程/文章 · 许可标注:未标注
 - **#701 刺绣（embroidery）要点名针法：只写 embroidery 会随机出缎面绣或机绣；写“缎面绣做花瓣、法式结做花心、回针绣做茎和字”，配木绣绷、亚麻底布和侧光显出线的立体** — [Pokanop AI Prompts & Skills](https://pokanop.github.io/ai/prompts/images/styles/craft-materials/embroidered-cross-stitch/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.1
 - **#776 中国皮影戏（shadow puppetry）：不是黑色剪影——是半透明的染色兽皮雕成镂空花纹、贴在棉布幕上由油灯从背后照亮，颜色靠透光呈现，镂空处最亮、叠片处变暗；要写侧身关节人偶、铆钉和细竹签** — [Director's Lookbook / pdoom.video / PromptCatalog / MOGE](https://directorslookbook.app/look/shadow-puppetry/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.5、5.7
+- **#803 木片镶嵌 Marquetry：要的是“一块由切好拼好的木皮组成的板”，不是“印在木头上的画”——按明暗点名真实树种（枫木/桦木最亮、樱桃与橡木中间、胡桃深、乌木近黑、紫檀红），每块木皮的纹理方向在接缝处换向并顺着形体走，发丝般的接缝、缎面清漆，配掠射光；绝不写 painted on wood、wood texture overlay 或烧出来的黑描边** — [pokanop AI Prompts / PromptCatalog / Magic Eraser](https://pokanop.github.io/ai/prompts/images/styles/craft-materials/wooden-marquetry/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.7
 
 ### 4.3 穿着状态与穿脱(2)
 
@@ -251,10 +258,10 @@
 
 - **#450 机甲少女：只写 mecha girl 不够，要把装甲、兵装、内部机构、推进器逐项点名** — [で、AIはなんて？ メカ少女を描くプロンプト集](https://ai-nante.com/mecha-girl-prompts/) · 教程/文章 · 许可标注:未标注
 
-## 5 光影氛围(92 条)
+## 5 光影氛围(97 条)
 
 
-### 5.1 光源与方向(29)
+### 5.1 光源与方向(31)
 
 - **#15 光线先给“来源”：窗光/侧光示例** — [DEV / Prompt Image Atlas](https://dev.to/promptimageatlas/midjourney-lighting-prompts-give-the-light-somewhere-to-come-from-41oe) · 实测 · 许可标注:未标注 · 次要子分类:5.6
 - **#53 Danbooru 光照标签分组 tag_group:lighting** — [Danbooru Wiki (社区维基，无明确开源许可，仅摘要+短标签)](https://danbooru.donmai.us/wiki_pages/tag_group:lighting) · 社区维基 · 许可标注:无明确许可(仅摘要/链接)
@@ -285,6 +292,8 @@
 - **#736 暗黑奇幻写法：先写一句固定不变的“风格契约”（媒介、明暗结构、单一光向、四色色板），再按前中后三层写景深，再写 1–3 个“剪影+一件道具+一个动作”的角色，光写成物理原因（“被下方篝火照亮”）而不是 dramatic lighting** — [Neta / Fiddl / PromptAtlas](https://neta.art/explore/guide/how-to-use-gpt-image-2-for-dark-fantasy-art) · 实测 · 许可标注:未标注 · 次要子分类:15.1
 - **#743 金缮（kintsugi）：先写清“哪件器物、碎成几块、裂纹怎么走”，金线只沿真实断口走、细而微凸、在接点干净交汇；哑光釉、侧光扫过金线、单件器物加素净背景；最常见的翻车是满器乱窜的金色闪电纹、完好器物上画金线或熔化的金属** — [PromptAtlas / Director's Lookbook / LoRA AI / FaxianAI](https://promptatlas.co/prompts/kintsugi-art-prompt) · 教程/文章 · 许可标注:未标注
 - **#779 火光（壁炉、篝火）照明：真实火焰亮度不够，影视里多是“画面里一团真火 + 藏在火的位置的暖灯”模拟；光源放低、颜色比肤色更暖、亮度不规则地慢慢闪烁、几乎不补光，让远侧脸和后墙沉进黑暗，火焰本身可以略微过曝** — [Flashboards / r/photography / Shotkit / National Geographic](https://flashboards.yaroflasher.com/learn/lighting/firelight/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.6
+- **#785 实景光源与动机光（practicals / motivated lighting）：画面里看得见的台灯、窗、屏幕、霓虹只负责“交代光从哪来”，真正照亮脸的是画框外同方向、同色温、同软硬的隐藏光；实景灯本身比主光亮约一档但不能过曝，在不同纵深放几盏做层次** — [Geared Like a Machine / PremiumBeat / No Film School / Lighting for Digital Film](https://www.gearedlikeamachine.com/blog/practical-lights-on-set-making-lamps-and-screens-work-on-camera) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.3
+- **#801 莳绘 Maki-e：意思是“撒出来的画”——金银粉撒在未干的漆上，所以要写“黑色漆面的镜面深度 + 颗粒状的金粉（由密到疏表现明暗）”，而不是平涂金色；再点名技法：平莳绘（微凸颗粒）、高莳绘（隆起浮雕）、研出莳绘（打磨后与漆面齐平），配侧光分开漆面反光和金粉闪点，大量留白** — [Kyuseido / Magic Eraser / FaxianAI / PromptCraft / EMC AI LAB](https://www.kyuseidotokyo.com/libraryofknowledge/an-introduction-to-maki-e) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.7、8.3
 
 ### 5.2 时段与天空光(11)
 
@@ -307,7 +316,7 @@
 - **#454 蒸汽朋克的暖光规则与做旧：gaslight/furnace glow 而非霓虹，加铜绿、煤灰、油渍** — [ArtPrompts Steampunk AI Art Prompts: 38 Brass Ideas](https://artpromptsgenerator.org/steampunk-ai-art-prompts/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.1、5.4
 - **#465 FLUX 用 hex 色码精确指定颜色：色码配颜色名、绑定到具体物件、调色板 3–5 色** — [black-forest-labs/skills hex-color-prompting.md（MIT）](https://github.com/black-forest-labs/skills/blob/master/skills/flux-image-best-practices/rules/hex-color-prompting.md) · 教程/文章 · 许可标注:MIT
 
-### 5.4 特效光与透光(17)
+### 5.4 特效光与透光(18)
 
 - **#55 lens flare 三种形态与“不是 flare”的东西** — [Danbooru Wiki (社区维基，无明确开源许可，仅摘要+短标签)](https://danbooru.donmai.us/wiki_pages/lens_flare) · 社区维基 · 许可标注:无明确许可(仅摘要/链接)
 - **#238 Neon Rain 实测样例：雨夜霓虹 + 行走回眸** — [SirenRender Neon Rain（4 seeds）](https://prompts.sirenrender.com/illustrious/neon-rain/) · 实测 · 许可标注:未标注 · 次要子分类:1.3、6.4
@@ -326,8 +335,9 @@
 - **#668 霓虹招牌要写成“能做出来的物件”：连续少弯折的玻璃管路径、亚克力背板与支架和电源线、光晕克制且保留管芯亮度；负面压掉过曝光晕、乱交叉管线和模型自造文字** — [PromptAtlas](https://promptatlas.co/prompts/neon-sign-design-prompt) · 教程/文章 · 许可标注:未标注
 - **#699 黑光灯（UV blacklight）要“选择性荧光”：列出哪些材质会发光、哪些保持中性黑，再加一点很弱的中性补光只保住眼睛和下颌；否则整张图变成紫色雾或普通霓虹调色** — [FreeArtGen Blog](https://www.freeartgen.com/blog/blacklight-photography) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.1、5.6
 - **#753 光绘摄影（light painting）：一个清晰的主体 + 一条有起点、路径和颜色逻辑的连续光迹 + 真实的暗场景；让光迹部分被主体挡住来交代前后关系，别写成随机霓虹乱画或矢量霓虹灯牌** — [PromptAtlas / Director's Lookbook / Olight](https://promptatlas.co/prompts/light-painting-photography-prompt) · 教程/文章 · 许可标注:未标注 · 次要子分类:1.5、5.1
+- **#797 虹彩/镭射材质 Iridescent & holographic：先选一种光学模式——薄膜干涉（肥皂泡、油膜、甲虫壳、氧化钛）、衍射镭射箔、珍珠母层，还是投影全息；写“随视角变色”和单一硬主光下的锐利高光，而不是到处发光；虹彩应只出现在反射里，底色保持稳定，否则会变成霓虹塑料或科幻 HUD** — [Director's Lookbook / PromptAtlas / BudgetPixel / CraftPBR](https://directorslookbook.app/look/holographic-iridescent/) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.2、2.5
 
-### 5.5 剪影与逆光轮廓(6)
+### 5.5 剪影与逆光轮廓(7)
 
 - **#54 backlighting 逆光与 light rays / dappled sunlight 区分** — [Danbooru Wiki (社区维基，无明确开源许可，仅摘要+短标签)](https://danbooru.donmai.us/wiki_pages/backlighting) · 社区维基 · 许可标注:无明确许可(仅摘要/链接) · 次要子分类:5.1
 - **#57 SirenRender 实测样例：逆光仰视的骑士** — [SirenRender 公开页 (无明确许可，仅摘要+短标签)](https://prompts.sirenrender.com/) · 实测 · 许可标注:无明确许可(仅摘要/链接) · 次要子分类:2.2
@@ -335,6 +345,7 @@
 - **#457 花火写形状与距离：launched fireworks + light trails + distant，人物用 silhouette 与 rim light，前景压暗** — [PixAI 夏祭り・浴衣（花火の書き方）](https://blog.pixai.art/ja/summer-anime-prompt-august-scenes-ja/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.1
 - **#555 Synthwave（合成波）舞台：洋红线框网格通向低地平线 + 横条纹分段的巨大落日 + 纯黑剪影；太阳不能是平滑渐变** — [Visual Sandbox: Synthwave](https://visualsandbox.com/techniques/print/screen-and-digital/synthwave/) · 教程/文章 · 许可标注:未标注
 - **#566 蓝晒 photogram 写法：植物、羽毛、剪刀直接摆在纸上的白色剪影；别让它变成“蓝图”式直尺线条** — [Director's Lookbook: Cyanotype Sun Print](https://directorslookbook.app/look/cyanotype-sun-print/) · 教程/文章 · 许可标注:未标注
+- **#782 古希腊黑绘陶瓶（Attic black-figure）：人物是橙色陶土底上的光亮黑色剪影，细节靠“刻线”露出底下的陶色，只加白（常用于女性皮肤）和紫红两种点缀；先写技法、再写器型（amphora/hydria/krater/kylix/lekythos），别混进红绘的黑底与毛笔线** — [The Met / Museum of Cycladic Art / Morphic / Director's Lookbook](https://www.metmuseum.org/essays/athenian-vase-painting-black-and-red-figure-techniques) · 实测 · 许可标注:未标注
 
 ### 5.6 布光方案与光线原则(5)
 
@@ -344,7 +355,7 @@
 - **#414 12 种可直接套用的人像布光句：loop、butterfly、clamshell、split、低调单光、烛光** — [AI Tools Guidebook 12 portrait lighting templates](https://aitoolsguidebook.com/en/articles/realistic-portrait-lighting-prompts/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.3、5.7
 - **#513 Qwen Image 商品写实：点名真实灯组（三点布光、轮廓光、双柔光箱高调、渐变扫景），再加高光、接触阴影、反光板** — [Memons 24 Qwen Image Prompts for Product Photography](https://memons.ai/qwen-image-prompts-product-photography) · 教程/文章 · 许可标注:未标注
 
-### 5.7 明暗对比与阴影(19)
+### 5.7 明暗对比与阴影(20)
 
 - **#56 Civitai 动态光照悬赏文：影响光照的通用词** — [Civitai 公开文章 (无明确许可，仅摘要+短标签)](https://civitai.com/articles/10376) · 教程/文章 · 许可标注:无明确许可(仅摘要/链接) · 次要子分类:5.1
 - **#127 明暗对比与反射/折射标签** — [で、AIはなんて？ 光のプロンプト大全（コントラスト・反射）](https://ai-nante.com/light-prompt-guide/) · 实测 · 许可标注:未标注
@@ -365,6 +376,7 @@
 - **#746 拉斐尔前派（Pre-Raphaelite）：一个穿中世纪长裙的人物站在浅浅的、开满“认得出品种”的花的前景里，没有纵深也没有雾；所有东西均匀受光、每片叶子每道衣褶都清晰，不进入阴影；宝石色不混合；模型最常回给的是发光柔焦的浪漫奇幻画** — [Visual Sandbox / FairStack / ArtStyles](https://visualsandbox.com/techniques/print/art-movements/pre-raphaelite/) · 教程/文章 · 许可标注:未标注 · 次要子分类:6.1、8.1
 - **#761 巴洛克绘画（Baroque / 暗色调主义 tenebrism）：一个硬主光从左上方打进、阴影不补光、只排一个清楚的动作沿左上到右下的对角线展开；光要分主次，靠结构和光制造戏剧感，而不是堆华丽道具** — [VideoCue / Glif / Grid Maker Pro / CapCut / PromptAtlas](https://videocue.io/looks/baroque-painting-caravaggio) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.3
 - **#769 刮画（scratchboard）：画面是从一整块黑色墨层里“刮出”白线，不是在黑底上画白线；明暗只靠刮线疏密（密=浅、疏=深、不刮=纯黑），线条要顺着毛发、羽毛和形体走向，最亮的高光留给焦点** — [Visual Sandbox / PromptAtlas / Director's Lookbook / GNSI](https://visualsandbox.com/techniques/styles/painted/scratchboard/) · 教程/文章 · 许可标注:未标注
+- **#790 达·芬奇式晕涂法 Sfumato：它不是模糊——要“保住一处清楚（通常是眼睛）、只指定几条边消散（脸颊、发际、肩线融进阴影）、用相近的明度和色温把人物和背景连成同一团空气”；写 sfumato at the jaw and temple 这种局部位置，不要写 blur、soft focus、foggy** — [Libelune (Medium) / J.M. Bonthous (Medium) / Art Styles Pro / AI Academy](https://medium.com/@libelune/the-art-of-dissolving-edges-how-to-create-sfumato-in-midjourney-a8276cda7681) · 教程/文章 · 许可标注:未标注 · 次要子分类:7.4、8.3
 
 ### 5.9 其他/待细分(1)
 
@@ -488,10 +500,10 @@
 - **#385 ジト目 jitome：多数新模型能出，旧模型会偏 Q 版** — [iPentec ジト目を表現するプロンプト](https://www.ipentec.com/document/ai-image/image-generation-prompt-jitome) · 实测 · 许可标注:未标注
 - **#772 木雕浮雕（wood relief carving）：要像“一块木头雕出来的”，关键是木纹连续穿过背景和凸起的形体、分出三层清楚的深度、大面积用宽圆凿刀面、细 V 形刀痕只留给焦点（眼睛、叶脉），高点打磨圆润，配掠射光；避免烙画线、激光般完美的槽和塑料光泽** — [PromptAtlas / woodcarvingbasics / Carveco](https://promptatlas.co/prompts/wood-carving-prompt) · 实测 · 许可标注:未标注
 
-## 8 风格胶片(78 条)
+## 8 风格胶片(82 条)
 
 
-### 8.1 画风与媒介(34)
+### 8.1 画风与媒介(36)
 
 - **#73 n714 起手提示词：Photo/Lineart/CG/画质词** — [GitHub n714/stable-diffusion-prompt-library-zh_CN (MIT)](https://github.com/n714/stable-diffusion-prompt-library-zh_CN) · 仓库 · 许可标注:MIT · 次要子分类:18.1
 - **#88 Jio7 分类库：年代/画风 (style) 标签** — [Hugging Face Jio7/danbooru-tags-classified (MIT)](https://huggingface.co/datasets/Jio7/danbooru-tags-classified) · 标签表/词频 · 许可标注:MIT
@@ -527,16 +539,19 @@
 - **#762 蜡染（batik）：判断是不是蜡染的关键是蜡线——手绘的防染轮廓带一点抖动，蜡裂处渗入染料形成细而不规则的冰裂纹；冰裂只放在大色块里、疏密有变化，写成整齐网格就假了，颜色多了会像现代印花** — [ArtStyles / Art Styles Pro / PromptKoi / FaxianAI / PromptAtlas](https://artstyles.com/s/batik-art-style/9ZgYKQOYLk6BlnAXLNtS) · 教程/文章 · 许可标注:未标注
 - **#771 中世纪挂毯要先分清两种：贝叶挂毯其实是“刺绣”——粗亚麻底上用羊毛线绣轮廓（茎绣）和铺线钉线填色，十种左右天然染色、横向叙事长卷加上下装饰边；真正的“织造挂毯”要写经纬纹理、阶梯状轮廓和有限的毛线色板** — [Wikipedia / PromptAtlas / SeaArt / PromptHero](https://en.wikipedia.org/wiki/Bayeux_Tapestry) · 教程/文章 · 许可标注:未标注
 - **#777 敦煌莫高窟壁画风：先决定走“壁画感”（保留墙面、颜料层、裂纹、剥落，人物边缘可被墙吃掉）还是“高清复原感”（颜色回到饱和、背景压成一色），两套词别混写；年代词放句首定造型，飘带方向只写一个** — [AI Hub (melon-hub) / guunn / NavXD / Getty Conservation Institute](https://melon-hub.com/styles/dunhuang) · 教程/文章 · 许可标注:未标注
+- **#783 土耳其水拓画 Ebru（paper marbling）：要同时写“最初的滴色方式”（石纹点滴、同心环）和“之后的工具动作”（直梳、交替耙、轻旋），留出细细的纸白脉线分隔颜色，否则多种饱和色会混成一摊泥；要单张独一无二，别要镜像重复** — [PromptAtlas / ggprompts / Art Styles Pro / Legnext](https://promptatlas.co/prompts/paper-marbling-prompt) · 教程/文章 · 许可标注:未标注
+- **#795 刺子绣与襤褸 Sashiko / Boro：先分清两件事——刺子绣是白线平针绣出的几何纹（麻叶 asanoha、青海波 seigaiha，连续线条的“模样刺”或网格单针的“一目刺”），襤褸是一层层补丁拼叠的旧靛蓝布、刺子绣常用来把补丁缝牢；写出针孔、凸起的线、深浅不一的天然靛蓝和侧逆掠射光，质感才像真的缝出来** — [Kogei Japonica / C&T Publishing / Embroiderers' Guild of America / Japan Craft Finds / Voor AI / Deep Dream Generator](https://en.kogei-japonica.com/media/introduction/sashiko-boro/) · 教程/文章 · 许可标注:未标注
 
-### 8.2 上色与塗り(5)
+### 8.2 上色与塗り(6)
 
 - **#139 日系赛璐璐 vs 厚涂的写法** — [Eimu 动漫插画用例](https://eimu.dev/use-cases/anime) · 实测 · 许可标注:未标注
 - **#218 NovelAI 文档：上色标签与年代标签** — [NovelAI Documentation Art Styles](https://docs.novelai.net/en/image/tutorial-artstyles/) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.4
 - **#255 塗り方标签：アニメ塗り/ギャルゲ塗り/厚塗り风/ベタ塗り/水彩** — [りんかイラスト 塗り方のプロンプト](https://rinkaillust.com/prompt-library/guide/coloring-style-prompts/) · 教程/文章 · 许可标注:未标注
 - **#507 水彩颜料与纸张控制：写颜料名与纸重、写“未上色的白纸高光”和轮廓处积色，避免平涂** — [PromptMake Watercolor Wash Prompt Controls](https://promptmake.net/blog/watercolor-wash-prompt-controls) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.3
 - **#655 涂色页（coloring page）：先写“可打印的规则”再写场景——外轮廓最粗、每个上色区都要闭合、细节只放在约十分之一的焦点区，禁止灰阶、阴影、密集排线** — [FreeArtGen Blog](https://www.freeartgen.com/blog/coloring-book-prompts) · 教程/文章 · 许可标注:未标注 · 次要子分类:1.5
+- **#796 蜡画 Encaustic：颜料溶在热蜂蜡里、一层层加热熔合在木板上——要写“半透明的蜡层、底层颜色透出来、刮痕与刻线、浅浮雕的蜡脊、低调的黄油般光泽”，负面排除油画厚涂、树脂浇注、玻璃般透明和塑料光；古罗马埃及的法尤姆木乃伊肖像就是这种技法** — [Director's Lookbook / ArtStyles / Art Styles Pro / PromptAtlas](https://directorslookbook.app/look/encaustic-wax-painting/) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.3
 
-### 8.3 胶片与摄影风格(25)
+### 8.3 胶片与摄影风格(26)
 
 - **#16 Portra 400 胶片风格写法** — [VisualSandbox](https://visualsandbox.com/techniques/photography/colour-film/portra-400/) · 教程/文章 · 许可标注:未标注
 - **#154 胶片型号公式：shot on [film stock] + 一两个特征** — [God of Skills（AI 胶片模拟）](https://godofskills.com/guides/ai-film-stock-emulation) · 教程/文章 · 许可标注:未标注
@@ -563,6 +578,7 @@
 - **#729 黑白胶片二选一：Ilford HP5 Plus 是“平反差、圆而软的中等颗粒、暗部有细节”，Kodak Tri-X 400 是“硬反差、粗而锐的颗粒铺满全画面、深黑”；模型默认把黑白胶片当高反差，还会只在暗部加噪点** — [Visual Sandbox（HP5 Plus / Tri-X 400）/ ImageGrain](https://visualsandbox.com/techniques/photography/black-and-white-film/hp5-plus/) · 教程/文章 · 许可标注:未标注
 - **#730 Fujifilm Velvia 50 反转片：写“绿和红最饱和、阴影偏冷蓝、高光直接截断成白、几乎无颗粒”；它是风景片，人物皮肤会变得红而晒伤，只说“高饱和”会得到暗部打开、高光柔和的普通调色** — [Visual Sandbox Velvia 50](https://visualsandbox.com/techniques/photography/slide-and-instant/velvia-50/) · 教程/文章 · 许可标注:未标注
 - **#747 美柔汀铜版（mezzotint）：整块版先摇满毛刺、印出来是天鹅绒般的黑，画面是从黑里“刮出、压亮”出来的——只有色调没有线条，深黑、柔灰、少量小而锐的高光；要和雕刻、蚀刻的排线明确区分** — [Director's Lookbook / ArtStyles / ArtTechniques](https://directorslookbook.app/look/mezzotint/) · 教程/文章 · 许可标注:未标注
+- **#788 葡萄牙瓷砖画 Azulejo：先定格式——是“跨多块方砖的连续叙事壁画”还是“可重复的几何单砖纹样”，别让模型两样都做；钴蓝在锡釉白底上从冰蓝淡染到近黑深蓝，最亮处直接留白釉，配巴洛克卷叶边框和整齐一致的灰缝网格** — [Art of AI / Midlibrary / ArtStyles / Magic Eraser / Stable Diffusion Online](https://art-of-ai.com/art-style-full-list/lisbon-tile-illustration/) · 教程/文章 · 许可标注:未标注
 
 ### 8.4 配色与色调(11)
 
