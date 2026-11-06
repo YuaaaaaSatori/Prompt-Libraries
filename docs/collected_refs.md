@@ -2,10 +2,10 @@
 
 阿燐整理的提示词资料:对公开教程、文章、仓库、实测的摘要、短提示词短语与来源链接。**许可不明或限制性许可的来源只保留摘要与链接,不转载原文。**
 
-共 610 条。按「大类 → 子分类」排列;每条给出主题、来源链接、来源许可标注。摘要、提示词全文见 `data/general/collected_refs.jsonl.gz`。
+共 626 条。按「大类 → 子分类」排列;每条给出主题、来源链接、来源许可标注。摘要、提示词全文见 `data/general/collected_refs.jsonl.gz`。
 
 
-## 1 场景主题(52 条)
+## 1 场景主题(54 条)
 
 
 ### 1.1 室内与居所场景(3)
@@ -14,13 +14,14 @@
 - **#349 让“风”看得见：飘落物、窗帘、效果线** — [で、AIはなんて？ 風の表現のプロンプト集](https://ai-nante.com/ai-wind-prompt-guide/) · 教程/文章 · 许可标注:未标注
 - **#592 Backrooms、Poolrooms 与 Dreamcore 的区分：阈限空间靠“写实”让人不安；Dreamcore 是模仿梦境的超现实拼贴** — [FlashBoards: Liminal Space（Backrooms 与 Dreamcore 段）](https://flashboards.yaroflasher.com/learn/film-movements/liminal-space/) · 实测 · 许可标注:未标注
 
-### 1.2 户外城市与自然场景(3)
+### 1.2 户外城市与自然场景(4)
 
 - **#305 红叶背景 11 式：公园/银杏/落叶/溪谷/庭园/夜间灯光** — [AI見本帳 『紅葉』のプロンプト見本](https://ai-mihon.com/article/20261020-a5c2ffc1) · 教程/文章 · 许可标注:未标注
 - **#306 红叶词的陷阱：tunnel 会变石隧道** — [AI見本帳 『紅葉』のプロンプト見本（タグの注意点）](https://ai-mihon.com/article/20261020-a5c2ffc1) · 教程/文章 · 许可标注:未标注
 - **#452 蒸汽朋克先定主角（人物或背景），再分开金属与布革、暖光与青绿** — [Mitsune SD スチームパンクプロンプト一覧](https://mitsune-ai.com/stable-diffusion-steampunk-prompts/) · 教程/文章 · 许可标注:未标注
+- **#819 朱伊印花 Toile de Jouy：单色（靛蓝、黑或砖红）印在米白底上的“铜版雕刻线描田园叙事场景”，必须给出具体小场景（牧羊人、柳树、农舍、蜿蜒小河）并写 cross-hatching、no flat fills，否则会退化成大马士革花纹或平涂插画** — [PromptKoi / Mastering AI Art / Prompt Library / srefs.co](https://promptkoi.com/prompts/flux/vintage-toile-de-jouy-pattern/) · 实测 · 许可标注:未标注
 
-### 1.3 天气与季节(28)
+### 1.3 天气与季节(29)
 
 - **#151 季节画四要素：服装、母题、光线、天气统一** — [りんかイラスト 季節・天気タグガイド](https://rinkaillust.com/prompt-library/guide/season-weather/?lang=en) · 教程/文章 · 许可标注:未标注
 - **#152 天气天候标签 46 种一览** — [で、AIはなんて？ 天気・天候のプロンプト46種](https://ai-nante.com/weather-prompt-catalog/) · 教程/文章 · 许可标注:未标注
@@ -50,6 +51,7 @@
 - **#662 复古旅行海报：颜色上限就是风格本身——连纸色在内 4–6 块平涂色、硬边、无雾无景深无柔影；提示里写“印刷方式”而不是描写风景** — [PSDmate Blog](https://psdmate.com/blog/vintage-travel-poster-design-guide) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.3
 - **#789 日本绞染 Shibori：只写 shibori 会得到泛泛的蓝色花纹，必须点名技法——板缔 itajime（折叠夹板，几何方块/三角镜像留白）、岚 arashi（缠杆压褶，斜向风雨条纹）、蜘蛛 kumo（揪起扎紧，同心蛛网圈）、鹿子 kanoko（小点）；留白边缘要有不规则的渗色，完美对称和激光切边是最常见的假** — [PromptKoi / MFA Boston / Pixova / Magic Eraser / Pattern Weaver](https://promptkoi.com/prompts/stable-diffusion/shibori-folded-indigo-cloth/) · 教程/文章 · 许可标注:未标注
 - **#800 藏传唐卡 Thangka：要写清“媒介+线+色+边框”——矿物颜料画在上浆打磨的棉布上、细金线压在平涂的青金石蓝与孔雀石绿之上、程式化卷云与雪山、严格对称、织锦装裱边；宗教图像（本尊、坛城、手印、经文）不能凭空拼造，借风格时把形式语言放在山水、云、鹿、鹤上** — [Director's Lookbook / videocue / styleatlas 风格谱](https://directorslookbook.app/look/tibetan-thangka/) · 实测 · 许可标注:未标注 · 次要子分类:8.1
+- **#825 硬石镶嵌 Pietra dura：画面要由“按形体轮廓切开的整块天然宝石片”拼成——点名石材对应颜色（孔雀石绿、青金石蓝、红玉髓红、玛瑙层纹、雪花石膏高光），写出每块石头自己的纹理和发丝般的接缝，再选传统：佛罗伦萨 commesso 是黑大理石底、莫卧儿 parchin kari 是白大理石底；否则只会出平涂色块或普通马赛克** — [MagicEraser / Midlibrary / Design Style Book](https://magiceraser.live/en/blog/how-to-create-pietra-dura-effect-with-ai) · 教程/文章 · 许可标注:未标注
 
 ### 1.4 奇幻与节日主题(4)
 
@@ -218,7 +220,7 @@
 - **#709 拜占庭圣像（Byzantine icon）：蛋彩画在木板上、抛光金箔底、正面静止人物与扁平光环、程式化的衣褶高光线和反向透视；不是彩色玻璃也不是文艺复兴写实** — [Director's Lookbook](https://directorslookbook.app/look/byzantine-icon/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.1、8.1
 - **#752 中世纪泥金装饰手抄本（illuminated manuscript）：金箔是必写项——没有 gold leaf 就只是“中世纪插画”；再写陈年犊皮纸、历史化首字母、藤蔓边框与页边怪兽、矿物颜料名和扁平透视，只写 medieval painting 会跑成文艺复兴油画** — [ArtStyles / pokanop AI Prompts / Morphic](https://artstyles.com/guides/how-to-draw-illuminated-manuscript-art-style) · 教程/文章 · 许可标注:未标注
 
-## 4 服装专项(22 条)
+## 4 服装专项(23 条)
 
 
 ### 4.1 日常服饰与款式词典(11)
@@ -235,7 +237,7 @@
 - **#431 旗袍同义词实测：china dress / qipao / cheongsam 出图无差，qipao 最省 token** — [Kawaii Prompt Lab チャイナドレス検証 china dress vs qipao vs cheongsam](https://kawaiipromptlab.com/tips/china-dress-test/) · 实测 · 许可标注:未标注
 - **#456 浴衣衣襟要右前（从观者看呈小写 y），左右翻转后几乎必错** — [PixAI 夏祭り・浴衣（衿の合わせ）](https://blog.pixai.art/ja/summer-anime-prompt-august-scenes-ja/) · 教程/文章 · 许可标注:未标注
 
-### 4.2 面料与材质(7)
+### 4.2 面料与材质(8)
 
 - **#381 丝带的结法、材质与系的位置：从整齐蝴蝶结到快松开的状态** — [で、AIはなんて？ リボンの種類・位置・巻き方](https://ai-nante.com/ribbon-prompt-guide/) · 教程/文章 · 许可标注:未标注 · 次要子分类:10.1
 - **#407 连裤袜与长筒袜：tights 不透、pantyhose 薄透，用 sheer / opaque / seamed 控制质感** — [UruruAILab タイツ・ストッキングのプロンプト](https://ururuailab.com/sd-prompt-socks-shoes/) · 教程/文章 · 许可标注:未标注
@@ -244,6 +246,7 @@
 - **#701 刺绣（embroidery）要点名针法：只写 embroidery 会随机出缎面绣或机绣；写“缎面绣做花瓣、法式结做花心、回针绣做茎和字”，配木绣绷、亚麻底布和侧光显出线的立体** — [Pokanop AI Prompts & Skills](https://pokanop.github.io/ai/prompts/images/styles/craft-materials/embroidered-cross-stitch/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.1
 - **#776 中国皮影戏（shadow puppetry）：不是黑色剪影——是半透明的染色兽皮雕成镂空花纹、贴在棉布幕上由油灯从背后照亮，颜色靠透光呈现，镂空处最亮、叠片处变暗；要写侧身关节人偶、铆钉和细竹签** — [Director's Lookbook / pdoom.video / PromptCatalog / MOGE](https://directorslookbook.app/look/shadow-puppetry/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.5、5.7
 - **#803 木片镶嵌 Marquetry：要的是“一块由切好拼好的木皮组成的板”，不是“印在木头上的画”——按明暗点名真实树种（枫木/桦木最亮、樱桃与橡木中间、胡桃深、乌木近黑、紫檀红），每块木皮的纹理方向在接缝处换向并顺着形体走，发丝般的接缝、缎面清漆，配掠射光；绝不写 painted on wood、wood texture overlay 或烧出来的黑描边** — [pokanop AI Prompts / PromptCatalog / Magic Eraser](https://pokanop.github.io/ai/prompts/images/styles/craft-materials/wooden-marquetry/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.7
+- **#806 雕漆/剔红 Carved cinnabar lacquer：关键是“层”和“刻”——要写上百层漆堆出的厚度、斜刀刻穿后在刀口露出红黑（或红黑黄）交替的漆层、深浮雕纹样，光泽写成柔和缎光或旧蜡质包浆而不是高光镜面，否则会糊成一块红塑料；用 museum still life / cultural relic photography 比 ancient style 更像文物** — [CRAFT 世界工艺库 / AtomWords / FlowPix / Magic Eraser](https://www.craftheritage.world/technique/beijing-carved-lacquerware-diaoqi-china) · 实测 · 许可标注:未标注 · 次要子分类:8.1
 
 ### 4.3 穿着状态与穿脱(2)
 
@@ -258,7 +261,7 @@
 
 - **#450 机甲少女：只写 mecha girl 不够，要把装甲、兵装、内部机构、推进器逐项点名** — [で、AIはなんて？ メカ少女を描くプロンプト集](https://ai-nante.com/mecha-girl-prompts/) · 教程/文章 · 许可标注:未标注
 
-## 5 光影氛围(97 条)
+## 5 光影氛围(100 条)
 
 
 ### 5.1 光源与方向(31)
@@ -355,7 +358,7 @@
 - **#414 12 种可直接套用的人像布光句：loop、butterfly、clamshell、split、低调单光、烛光** — [AI Tools Guidebook 12 portrait lighting templates](https://aitoolsguidebook.com/en/articles/realistic-portrait-lighting-prompts/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.3、5.7
 - **#513 Qwen Image 商品写实：点名真实灯组（三点布光、轮廓光、双柔光箱高调、渐变扫景），再加高光、接触阴影、反光板** — [Memons 24 Qwen Image Prompts for Product Photography](https://memons.ai/qwen-image-prompts-product-photography) · 教程/文章 · 许可标注:未标注
 
-### 5.7 明暗对比与阴影(20)
+### 5.7 明暗对比与阴影(23)
 
 - **#56 Civitai 动态光照悬赏文：影响光照的通用词** — [Civitai 公开文章 (无明确许可，仅摘要+短标签)](https://civitai.com/articles/10376) · 教程/文章 · 许可标注:无明确许可(仅摘要/链接) · 次要子分类:5.1
 - **#127 明暗对比与反射/折射标签** — [で、AIはなんて？ 光のプロンプト大全（コントラスト・反射）](https://ai-nante.com/light-prompt-guide/) · 实测 · 许可标注:未标注
@@ -377,12 +380,15 @@
 - **#761 巴洛克绘画（Baroque / 暗色调主义 tenebrism）：一个硬主光从左上方打进、阴影不补光、只排一个清楚的动作沿左上到右下的对角线展开；光要分主次，靠结构和光制造戏剧感，而不是堆华丽道具** — [VideoCue / Glif / Grid Maker Pro / CapCut / PromptAtlas](https://videocue.io/looks/baroque-painting-caravaggio) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.3
 - **#769 刮画（scratchboard）：画面是从一整块黑色墨层里“刮出”白线，不是在黑底上画白线；明暗只靠刮线疏密（密=浅、疏=深、不刮=纯黑），线条要顺着毛发、羽毛和形体走向，最亮的高光留给焦点** — [Visual Sandbox / PromptAtlas / Director's Lookbook / GNSI](https://visualsandbox.com/techniques/styles/painted/scratchboard/) · 教程/文章 · 许可标注:未标注
 - **#790 达·芬奇式晕涂法 Sfumato：它不是模糊——要“保住一处清楚（通常是眼睛）、只指定几条边消散（脸颊、发际、肩线融进阴影）、用相近的明度和色温把人物和背景连成同一团空气”；写 sfumato at the jaw and temple 这种局部位置，不要写 blur、soft focus、foggy** — [Libelune (Medium) / J.M. Bonthous (Medium) / Art Styles Pro / AI Academy](https://medium.com/@libelune/the-art-of-dissolving-edges-how-to-create-sfumato-in-midjourney-a8276cda7681) · 教程/文章 · 许可标注:未标注 · 次要子分类:7.4、8.3
+- **#808 银尖笔 Silverpoint（金属尖笔素描）：每一笔都细而清楚、不能擦也不能晕，所以明暗只能靠同方向的细排线和交叉排线一层层叠出来；线是浅银灰、日久氧化成暖棕，画在预先上了底料（常带淡色）的纸或板上，整体色阶窄而统一——别写成软铅笔晕擦或炭笔大块黑** — [Drawing Academy / Let There Be Prompt (Medium)](https://drawingacademy.com/silverpoint-drawing-technique-part1) · 教程/文章 · 许可标注:未标注
+- **#809 灰调画 Grisaille：全用灰阶“画出雕塑”——选浮雕、壁龛、雕像、布褶这类本来就像石头的题材，一盏左上方的单光源，把明度压成四五个层级（最深的黑只留给缝隙和接触阴影），画出投在壁龛里的影子做错视立体；写 stone-like tones / sculptural shading，并明确 no color** — [ArtStyles / Art Styles Pro](https://artstyles.com/guides/how-to-draw-grisaille-painting-style) · 实测 · 许可标注:未标注 · 次要子分类:5.1、8.4
+- **#815 刮擦装饰 Sgraffito：图像是“刮掉上层露出下层”得来的，不是画上去的——写清两层对比色（陶器上是彩色化妆土盖在陶胎上，墙面是两层不同色的灰泥），线条是清脆、有刀口斜边的刻线，凹槽里比表面低一点；和刮画板（黑墨层刮白线）分开：sgraffito 是陶或灰泥的真实厚度与质感** — [Wikipedia / ArtTechniques / British Ceramics Biennial / Wikisource](https://arttechniques.com/techniques/sgraffito) · 实测 · 许可标注:未标注
 
 ### 5.9 其他/待细分(1)
 
 - **#348 风词 26 条件实测：fluttering 一词同时吹动裙子和头发** — [Kawaii Prompt Lab 風になびく髪と服 26条件検証](https://kawaiipromptlab.com/tips/wind-effect-descriptor-test/) · 实测 · 许可标注:未标注
 
-## 6 姿势动作(50 条)
+## 6 姿势动作(51 条)
 
 
 ### 6.1 站立与全身姿态(9)
@@ -437,7 +443,7 @@
 - **#365 “举起来”的动作：写动作中途、手放在哪、重量感** — [jikuchiyo 持ち上げるポーズのプロンプト集](https://jikuchiyo.com/lifting-pose-prompt/) · 教程/文章 · 许可标注:未标注 · 次要子分类:6.6、6.7
 - **#669 软粉彩（chalk/soft pastel）：写“干颜料挂在纸齿上、凹处留空、手指晕开的边、表面散落粉屑、浅色叠在深色上不混、纸色透出来”，否则会回来一张平滑数字画** — [Visual Sandbox](https://visualsandbox.com/techniques/styles/painted/soft-pastel/) · 教程/文章 · 许可标注:未标注
 
-### 6.6 双人与多人互动(6)
+### 6.6 双人与多人互动(7)
 
 - **#91 Danbooru 双人姿态标签（成年双人）** — [Danbooru Wiki (社区维基，无明确开源许可，仅摘要+短标签)](https://danbooru.donmai.us/wiki_pages/tag_group:posture) · 社区维基 · 许可标注:无明确许可(仅摘要/链接)
 - **#262 公主抱实测：bridal carry 会带出婚纱，直接描述动作更干净** — [Kawaii Prompt Lab（Princess Carry Prompts 5 Phrasings）](https://kawaiipromptlab.com/en/tips/princess-carry-prompt-test/) · 实测 · 许可标注:未标注 · 次要子分类:6.8
@@ -445,6 +451,7 @@
 - **#281 双人动作十式：并排/对视/背靠背/牵手/摸头等** — [note Carrera Vol.16 二人構図](https://note.com/carrera_ai_lab/n/n2c0bc7d48ede?hl=en) · 实测 · 许可标注:未标注
 - **#393 身高差构图模板：并排、仰视/俯视、牵手、拥抱、壁咚、三人排列** — [プロンプタ 身長差プロンプトガイド](https://www.prompta.jp/guides/height-difference-pair-prompt) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.2
 - **#395 双人四块结构：背景 BREAK 人物A BREAK 人物B BREAK 共同动作** — [SeaArt 2人キャラの描き分けプロンプト](https://www.seaart.ai/ja/blog/ai-two-characters-prompt) · 教程/文章 · 许可标注:未标注 · 次要子分类:15.1、15.2
+- **#813 高迪碎瓷马赛克 Trencadís：要“碎”不要“格”——不规则的瓷砖和瓷盘碎片（约 1–5 厘米、厚薄不一）顺着弯曲的有机建筑表面铺开，缝宽 2–3 毫米、缝线也不整齐；写清“贴在弯墙/长椅/烟囱上”和地中海午后阳光在釉面上的高光，并排除“印刷图案、重复纹样、CG 感”** — [Andamento.art / IAAC Blog / MeiGen / World Labs MCP](https://andamento.art/gaudi-mosaic-trencadis-modern-interpretations/) · 教程/文章 · 许可标注:未标注
 
 ### 6.7 身体曲线与四肢细节(4)
 
@@ -500,10 +507,10 @@
 - **#385 ジト目 jitome：多数新模型能出，旧模型会偏 Q 版** — [iPentec ジト目を表現するプロンプト](https://www.ipentec.com/document/ai-image/image-generation-prompt-jitome) · 实测 · 许可标注:未标注
 - **#772 木雕浮雕（wood relief carving）：要像“一块木头雕出来的”，关键是木纹连续穿过背景和凸起的形体、分出三层清楚的深度、大面积用宽圆凿刀面、细 V 形刀痕只留给焦点（眼睛、叶脉），高点打磨圆润，配掠射光；避免烙画线、激光般完美的槽和塑料光泽** — [PromptAtlas / woodcarvingbasics / Carveco](https://promptatlas.co/prompts/wood-carving-prompt) · 实测 · 许可标注:未标注
 
-## 8 风格胶片(82 条)
+## 8 风格胶片(91 条)
 
 
-### 8.1 画风与媒介(36)
+### 8.1 画风与媒介(39)
 
 - **#73 n714 起手提示词：Photo/Lineart/CG/画质词** — [GitHub n714/stable-diffusion-prompt-library-zh_CN (MIT)](https://github.com/n714/stable-diffusion-prompt-library-zh_CN) · 仓库 · 许可标注:MIT · 次要子分类:18.1
 - **#88 Jio7 分类库：年代/画风 (style) 标签** — [Hugging Face Jio7/danbooru-tags-classified (MIT)](https://huggingface.co/datasets/Jio7/danbooru-tags-classified) · 标签表/词频 · 许可标注:MIT
@@ -541,8 +548,11 @@
 - **#777 敦煌莫高窟壁画风：先决定走“壁画感”（保留墙面、颜料层、裂纹、剥落，人物边缘可被墙吃掉）还是“高清复原感”（颜色回到饱和、背景压成一色），两套词别混写；年代词放句首定造型，飘带方向只写一个** — [AI Hub (melon-hub) / guunn / NavXD / Getty Conservation Institute](https://melon-hub.com/styles/dunhuang) · 教程/文章 · 许可标注:未标注
 - **#783 土耳其水拓画 Ebru（paper marbling）：要同时写“最初的滴色方式”（石纹点滴、同心环）和“之后的工具动作”（直梳、交替耙、轻旋），留出细细的纸白脉线分隔颜色，否则多种饱和色会混成一摊泥；要单张独一无二，别要镜像重复** — [PromptAtlas / ggprompts / Art Styles Pro / Legnext](https://promptatlas.co/prompts/paper-marbling-prompt) · 教程/文章 · 许可标注:未标注
 - **#795 刺子绣与襤褸 Sashiko / Boro：先分清两件事——刺子绣是白线平针绣出的几何纹（麻叶 asanoha、青海波 seigaiha，连续线条的“模样刺”或网格单针的“一目刺”），襤褸是一层层补丁拼叠的旧靛蓝布、刺子绣常用来把补丁缝牢；写出针孔、凸起的线、深浅不一的天然靛蓝和侧逆掠射光，质感才像真的缝出来** — [Kogei Japonica / C&T Publishing / Embroiderers' Guild of America / Japan Craft Finds / Voor AI / Deep Dream Generator](https://en.kogei-japonica.com/media/introduction/sashiko-boro/) · 教程/文章 · 许可标注:未标注
+- **#818 霍赫洛马彩绘 Khokhloma：亮黑漆底+火红+金三色，母题要具体写“红草莓/花楸果、金色叶片和卷草、偶尔一只金鸟”，并写明是木碗、木勺、木盘上的厚亮漆面，否则模型只会出泛泛的“红金花纹”** — [Midlibrary / Civitai / Easy-Peasy.AI](https://midlibrary.io/library/khokhloma) · 教程/文章 · 许可标注:未标注
+- **#820 乐烧 Raku 陶器：三个辨识点要同时写——釉面不规则的细密开片且裂纹被烟熏成炭黑、未上釉或缺氧处的哑光烟黑、局部铜/青铜色金属虹彩闪光；裂纹要集中在器物凸面受力处，背景保持中性，否则只会得到普通的冰裂纹瓷** — [ArtStyles / Magic Eraser / AtomWords](https://artstyles.com/make/concept-art/japanese-raku-ceramic-art-style) · 教程/文章 · 许可标注:未标注
+- **#826 鱼拓 Gyotaku：要的是“真鱼涂墨压印”的偶然性——墨在鳞片和鳍条上时有时无、局部粘连缺墨或轻微溢出，纸白与墨自然交织；再配大片留白、一行小的毛笔字鱼名和一方红印，别写成精细的水墨工笔鱼** — [AhaPrompt / RazrAi / MagicEraser / Tripitaca](https://ahaprompt.app/prompt/japanese-gyotaku-fish-rubbing-variants) · 教程/文章 · 许可标注:未标注
 
-### 8.2 上色与塗り(6)
+### 8.2 上色与塗り(7)
 
 - **#139 日系赛璐璐 vs 厚涂的写法** — [Eimu 动漫插画用例](https://eimu.dev/use-cases/anime) · 实测 · 许可标注:未标注
 - **#218 NovelAI 文档：上色标签与年代标签** — [NovelAI Documentation Art Styles](https://docs.novelai.net/en/image/tutorial-artstyles/) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.4
@@ -550,6 +560,7 @@
 - **#507 水彩颜料与纸张控制：写颜料名与纸重、写“未上色的白纸高光”和轮廓处积色，避免平涂** — [PromptMake Watercolor Wash Prompt Controls](https://promptmake.net/blog/watercolor-wash-prompt-controls) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.3
 - **#655 涂色页（coloring page）：先写“可打印的规则”再写场景——外轮廓最粗、每个上色区都要闭合、细节只放在约十分之一的焦点区，禁止灰阶、阴影、密集排线** — [FreeArtGen Blog](https://www.freeartgen.com/blog/coloring-book-prompts) · 教程/文章 · 许可标注:未标注 · 次要子分类:1.5
 - **#796 蜡画 Encaustic：颜料溶在热蜂蜡里、一层层加热熔合在木板上——要写“半透明的蜡层、底层颜色透出来、刮痕与刻线、浅浮雕的蜡脊、低调的黄油般光泽”，负面排除油画厚涂、树脂浇注、玻璃般透明和塑料光；古罗马埃及的法尤姆木乃伊肖像就是这种技法** — [Director's Lookbook / ArtStyles / Art Styles Pro / PromptAtlas](https://directorslookbook.app/look/encaustic-wax-painting/) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.3
+- **#812 伊兹尼克瓷砖 Iznik tile：白底+钴蓝+绿松石+“凸起的番茄红”四件套缺一不可，所有花纹先用锰黑细线勾边再平涂上色；母题要写郁金香、康乃馨、风信子、石榴和弯曲带锯齿的萨兹叶（saz leaf），并说明是方砖拼成的墙板（看得见浅灰缝）和对称版式，否则只会得到泛泛的“蓝色土耳其花纹”** — [videocue / prompts.chat / ArtStyles / Midlibrary / Dergipark](https://videocue.io/looks/folk-turkish-iznik-ceramic) · 实测 · 许可标注:未标注
 
 ### 8.3 胶片与摄影风格(26)
 
@@ -580,7 +591,7 @@
 - **#747 美柔汀铜版（mezzotint）：整块版先摇满毛刺、印出来是天鹅绒般的黑，画面是从黑里“刮出、压亮”出来的——只有色调没有线条，深黑、柔灰、少量小而锐的高光；要和雕刻、蚀刻的排线明确区分** — [Director's Lookbook / ArtStyles / ArtTechniques](https://directorslookbook.app/look/mezzotint/) · 教程/文章 · 许可标注:未标注
 - **#788 葡萄牙瓷砖画 Azulejo：先定格式——是“跨多块方砖的连续叙事壁画”还是“可重复的几何单砖纹样”，别让模型两样都做；钴蓝在锡釉白底上从冰蓝淡染到近黑深蓝，最亮处直接留白釉，配巴洛克卷叶边框和整齐一致的灰缝网格** — [Art of AI / Midlibrary / ArtStyles / Magic Eraser / Stable Diffusion Online](https://art-of-ai.com/art-style-full-list/lisbon-tile-illustration/) · 教程/文章 · 许可标注:未标注
 
-### 8.4 配色与色调(11)
+### 8.4 配色与色调(14)
 
 - **#168 色彩控制：theme / analogous colors / color contrast** — [スタジオ真榊 画像生成プロンプト大辞典（illustrious向け）（色彩）](https://studiomasakaki.com/articles/10051055/) · 教程/文章 · 许可标注:未标注
 - **#216 色彩情绪标签与主题色统一** — [りんかイラスト Color & Mood Tags](https://rinkaillust.com/prompt-library/guide/color-mood/?lang=en) · 教程/文章 · 许可标注:未标注
@@ -593,12 +604,17 @@
 - **#656 美式传统纹身 flash：粗而连续的黑线、限色（红绿黄蓝 + 黑）、点名经典母题（玫瑰、船锚、燕子、鹰、黑豹、蛇、匕首），横幅留空不让 AI 写字；别和细线、水彩、写实混写** — [Pixel Morpher](https://www.pixelmorpher.com/blog/ai-traditional-tattoo-design-guide) · 教程/文章 · 许可标注:未标注
 - **#731 漫画网点纸（screentone）：所有灰都由清晰可见的规则网点组成，2–3 种密度分给不同表面，网点之间是“刀切”的硬边，局部用刀刮出白；写 black and white ink art，不要写 monochrome 或任何颜色词** — [Visual Sandbox / Kalon / The Cascade Hub / PromptCatalog](https://visualsandbox.com/techniques/styles/anime-and-manga/screentone/) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.1
 - **#757 意大利未来主义（Futurism, 1909–1916）：动感不是摄影的运动模糊，而是“画出来”的——主体重复成 6–20 个重叠的分解相位、放射状力线把画面切成碎面、机器时代配色、选一个带速度的题材（自行车、电车、赛车、人群）** — [Director's Lookbook / Morphic / ArtStyles](https://directorslookbook.app/look/futurism/) · 教程/文章 · 许可标注:未标注
+- **#814 墨西哥剪纸旗 Papel picado：要写成“一整张薄纸刻出来的镂空”——图案靠细“桥”连成一片、左右对称、边缘是锯齿或扇形；要做能切的图就写 connected pieces / single-sheet cutout 并避开过细的细节；挂在街上要写成串的彩色纸旗和风中摆动，配色固定为粉、橙、紫、绿松石** — [Chic Magazine / PromptBase / PromptUp / Kenerate AI](https://www.chicmagazine.com.mx/consejos/como-hacer-papel-picado-personalizado-con-inteligencia-artificial) · 教程/文章 · 许可标注:未标注 · 次要子分类:1.2
+- **#821 伊卡特 Ikat 扎经染织：先染纱后织布，所以花纹边缘一定是沿经线方向的羽毛状模糊和错位渗色，绝不能写 crisp edges；配合菱形、钻石、火焰形几何母题、手织棉的纱线质感和 seamless tileable repeat，才不会被当成普通的模糊花布** — [Texloom / Magic Eraser / Pattern Weaver](https://texloom.studio/blog/digital-batik-ikat-shibori-ai) · 教程/文章 · 许可标注:未标注
+- **#824 乌克兰彩蛋 Pysanka（蜡染彩蛋）：它是“用蜂蜡写出来、按由浅到深的染缸一层层保留”的，不是画上去的——写 kistka wax-resist、蜡保留的清晰浅色线、最后一缸的深色（黑、深紫、靛蓝）做底，再点名八角太阳星、无尽回纹 bezkonechnyk 和地域母题，否则只会出泛泛的“彩绘复活节蛋”** — [Videocue / Design by Curio / pysanky.info / Moyens](https://videocue.io/looks/folk-ukrainian-pysanky-egg-pattern) · 教程/文章 · 许可标注:未标注
 
-### 8.9 其他/待细分(3)
+### 8.9 其他/待细分(5)
 
 - **#563 Datamosh（压缩拖影）与普通故障条的区别：是“块状像素的流动与融化”，不是干净的错位条** — [Director's Lookbook: Datamosh](https://directorslookbook.app/look/datamosh/) · 教程/文章 · 许可标注:未标注
 - **#601 锡版摄影（tintype）：黑漆铁板上的直接正像——整体偏暗偏平、高光带银色光泽、没有真正的白；左右镜像，边缘剪切带毛刺** — [Visual Sandbox](https://visualsandbox.com/techniques/photography/historical-processes/tintype/) · 教程/文章 · 许可标注:未标注
 - **#680 钩针玩偶（amigurumi）：最关键的一句是“每一针都清楚可见”，再写螺旋圈、略不均匀的手工松紧和拼接缝；别写 plush / soft toy，那会变成光滑的毛绒玩具** — [Pokanop AI Prompts & Skills](https://pokanop.github.io/ai/prompts/images/styles/craft-materials/yarn-amigurumi/) · 教程/文章 · 许可标注:未标注
+- **#807 缂丝 Kesi（通经断纬）：它是“织”出来的画，不是刺绣也不是印花——写清“生丝经线贯通、彩色纬线只在各自色块里来回、色块交界处留下细细的竖向缝隙（缂丝的“刀刻”感）”，再用戗色/结色写出同色系的阶梯式晕色；正反两面图案几乎一样，没有刺绣的浮线和线结** — [Chinese Textile Archive / Pictorial Silks / U of Oregon Mellon Projects / U of Alberta Museums](https://chinastitches.com/en/research/reading-kesi-technique) · 教程/文章 · 许可标注:未标注
+- **#827 瓦哈卡木雕彩绘神兽 Alebrije：写“想象的混种动物 + 柯巴木或纸浆雕刻 + 满身密集的点、条纹、扇贝纹，每块面一种花纹”，用哑光丙烯的饱和洋红、钴蓝、青柠、橙；明确不是卡通怪兽，也不是亡灵节骷髅** — [Directors Lookbook / Midlibrary / Magica](https://directorslookbook.app/look/oaxacan-alebrije-colour/) · 实测 · 许可标注:未标注
 
 ## 9 妆容专项(2 条)
 
