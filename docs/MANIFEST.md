@@ -3,11 +3,11 @@
 | 文件 | 大小(字节) | sha256 |
 |---|---|---|
 | data/general/categories.jsonl.gz | 712 | e46648c073d580278d6a0ab9bcdd16a9711e059c4267f219b52daf4a1530d625 |
-| data/general/collected_refs.jsonl.gz | 328340 | 75dd9844d4b2bbabba8ba6c1852c44ec3efa82faa4ccf56c6a2c7c7605502c84 |
+| data/general/collected_refs.jsonl.gz | 450758 | 450b42e0041405fe45579d94a60d9b530d18a6a07f27c56e149655550a451f58 |
 | data/general/entries_shuaihui.jsonl.gz | 74459 | e42ee3c8be9649b0fedafbac7b48bb3a30e46f888f2af0604893fb8f5710c32d |
 | data/general/prompts_n714.jsonl.gz | 70603 | 0b51ae11d4503a2c8b79916d32b992238a39df50fcac6df0cc07c5020c73263f |
 | data/general/prompts_n714_school_benign.jsonl.gz | 901 | b8d4a92456e639047c4b5e66f601ff3c20c1fdc2482b2c50b5ef826f109ec8fd |
-| data/general/subcategories.jsonl.gz | 3310 | d04755c9527dfb8bf57f19dbdea0fec93f7419ecfc3508cc4d1ccdf6e745635a |
+| data/general/subcategories.jsonl.gz | 3390 | 6a2c2174bd842d739f90ebd6d7ab6a6d31789f22657ecb73cbf20d9477102d3e |
 | data/general/tags_ffdkj_01.jsonl.gz | 2079932 | 0c6d0752bcd7d808feb39505f35fd7ae3e16ed0bdeccb55e91a0589ea52948eb |
 | data/general/tags_ffdkj_02.jsonl.gz | 2035649 | 592e4c9bc3cab797ca8b17d5109d1169a9add91a3f9e7da283ddbca7dbd9df4e |
 | data/general/tags_ffdkj_03.jsonl.gz | 2038041 | c1bc81cd6f383771995d6c2d03181a5838668253fde3570c42aad5541675d551 |
@@ -17,5 +17,5 @@
 | data/general/tags_school_benign.jsonl.gz | 81607 | 5b65099a5aa234782363432a8fc1dbe3be24431abf8ae5dcd435bbef3e10611d |
 | data/sources.jsonl.gz | 690 | 6ded76d097d080539d4193735d4f5c4577a4831d321a1633ee278ddcb3225440 |
 
-合计 9160136 字节(最大单文件 2079932 字节)。
+合计 9282634 字节(最大单文件 2079932 字节)。
 注:gzip 以 mtime=0 写出,重新导出得到相同内容。
