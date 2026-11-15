@@ -2,7 +2,7 @@
 
 阿燐整理的提示词资料:对公开教程、文章、仓库、实测的摘要、短提示词短语与来源链接。**许可不明或限制性许可的来源只保留摘要与链接,不转载原文。**
 
-共 885 条。按「大类 → 子分类」排列;每条给出主题、来源链接、来源许可标注。摘要、提示词全文见 `data/general/collected_refs.jsonl.gz`。
+共 886 条。按「大类 → 子分类」排列;每条给出主题、来源链接、来源许可标注。摘要、提示词全文见 `data/general/collected_refs.jsonl.gz`。
 
 
 ## 1 场景主题(73 条)
@@ -1134,7 +1134,7 @@
 
 - **#550 Risograph 常见失败与修法：颜色超过两种→重复“只两种油墨加纸色”；太干净→要错位、不匀墨、纸尘；错位太大→加 subtle** — [Naviya Blog: Risograph Print AI Prompts](https://www.naviya.chat/en/blog/risograph-print-ai-prompts) · 教程/文章 · 许可标注:未标注
 
-## 19 年龄与体型锚点(11 条)
+## 19 年龄与体型锚点(12 条)
 
 
 ### 19.1 成年角色锚点(6)
@@ -1146,12 +1146,13 @@
 - **#976 成年年龄档命中实测（同模板只换年龄词，每档 10 张）：22 岁 9 / 28 岁 7 / 35 岁 4（普遍像 27–30）/ 45 岁 2（多像 30 出头甚至 25）/ 55 岁 7（偶尔老过头）——两头准中间松；修正：数字 + 2–3 个与年龄强绑定的外貌词（眼角细纹、浅法令纹、颈部纹路、白发比例），35 岁 4→7/10；再上参考图 8/10；“成熟稳重”等虚词无效** — [FlowPix AI 提示词工程](https://www.flowpixai.com/prompt-engineering/aimtznld.html) · 实测 · 许可标注:未标注
 - **#1116 成年锚点词组与头身比阈值：用 1woman/1man＋adult_face＋adult_proportions 起手代替 1girl/1boy；审核以头肩比≥1:2、头身比≥1:2.5 视为明确成年比例** — [JuicyChat Wiki](https://wiki.juicychat.ai/art-generation-guidelines/images-and-media) · 教程/文章 · 许可标注:未标注
 
-### 19.2 体型词汇(4)
+### 19.2 体型词汇(5)
 
 - **#914 体格差（≠身高差）：身高是纵向差，体格差 = 纵 + 横 + 肌肉量；body size difference + build difference + broad shoulders vs narrow shoulders + muscle mass contrast，各带 1.35–1.45 权重；负面 same body type / identical builds / equal body sizes** — [プロンプタ (prompta.jp)](https://www.prompta.jp/guides/body-size-difference-prompt-guide) · 教程/文章 · 许可标注:未标注 · 次要子分类:15.2、18.2
 - **#918 成人体型梯度：瘦肌 lean muscular build, slim waist → 肌肉 muscular build, defined forearms, v-taper → 壮硕 very muscular, burly, bodybuilder, thick neck；丰满 plump:1.1–1.3, heavyset, plus-size, soft body, soft cheeks；服装配合：rolled up sleeves / button-up shirt 显前臂，a-line dress / long cardigan / wide-leg pants 配丰满** — [プロンプタ (prompta.jp)](https://www.prompta.jp/guides/muscular-prompt-guide) · 教程/文章 · 许可标注:未标注
 - **#975 体型只描述不评价：带评判色彩的词会被模型放大成刻板夸张形象；换坐标写——量感词（高挑、修长、中等个子、娇小）+ 体格词（匀称、健美、体格结实、线条清晰）+ 剪裁适配词（落肩、直筒、高腰、A 字裙摆、九分裤长），让版型替你说明体型；“匀称”最安全但信息量最少，只垫底；取向模糊的词宁可不用** — [FlowPix AI 提示词工程](https://www.flowpixai.com/prompt-engineering/aihhtm.html) · 教程/文章 · 许可标注:未标注
 - **#1075 成人体型六要素与顺序：体格轴（slender/athletic/muscular/curvy/plus-size，放最前）→ 身高轴（tall/average height/towering）→ 部位形容（broad shoulders、long legs）→ 骨架量（toned body、well-built）→ 年龄感（adult in her thirties 等形容词比数字稳）→ 能展示体型的构图（full body shot）；对立的瘦系词放负面** — [プロンプタ](https://www.prompta.jp/guides/body-type-prompt-guide) · 实测 · 许可标注:未标注
+- **#1156 跨图保持角色身高与比例：区分“身份线索”和“比例线索”，先出一张中性全身参考（平视、腰/胸高机位、手脚入画），固定特征句＋只换场景，按头顶/地面线对齐比较下巴、肩、肘、腰、膝、踝** — [Celeb Meadow](https://celebmeadow.com/how-to-keep-ai-character-size-and-proportion-consistent-across-images/) · 教程/文章 · 许可标注:未标注 · 次要子分类:1.5、19.1
 
 ### 19.9 其他/待细分(1)
 
