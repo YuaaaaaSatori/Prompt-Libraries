@@ -2,7 +2,7 @@
 
 阿燐整理的提示词资料:对公开教程、文章、仓库、实测的摘要、短提示词短语与来源链接。**许可不明或限制性许可的来源只保留摘要与链接,不转载原文。**
 
-共 960 条。按「大类 → 子分类」排列;每条给出主题、来源链接、来源许可标注。摘要、提示词全文见 `data/general/collected_refs.jsonl.gz`。
+共 963 条。按「大类 → 子分类」排列;每条给出主题、来源链接、来源许可标注。摘要、提示词全文见 `data/general/collected_refs.jsonl.gz`。
 
 
 ## 1 场景主题(77 条)
@@ -286,10 +286,10 @@
 - **#709 拜占庭圣像（Byzantine icon）：蛋彩画在木板上、抛光金箔底、正面静止人物与扁平光环、程式化的衣褶高光线和反向透视；不是彩色玻璃也不是文艺复兴写实** — [Director's Lookbook](https://directorslookbook.app/look/byzantine-icon/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.1、8.1
 - **#752 中世纪泥金装饰手抄本（illuminated manuscript）：金箔是必写项——没有 gold leaf 就只是“中世纪插画”；再写陈年犊皮纸、历史化首字母、藤蔓边框与页边怪兽、矿物颜料名和扁平透视，只写 medieval painting 会跑成文艺复兴油画** — [ArtStyles / pokanop AI Prompts / Morphic](https://artstyles.com/guides/how-to-draw-illuminated-manuscript-art-style) · 教程/文章 · 许可标注:未标注
 
-## 4 服装专项(47 条)
+## 4 服装专项(48 条)
 
 
-### 4.1 日常服饰与款式词典(25)
+### 4.1 日常服饰与款式词典(26)
 
 - **#72 n714 服装词库（上装/外套/和风/职业）** — [GitHub n714/stable-diffusion-prompt-library-zh_CN (MIT)](https://github.com/n714/stable-diffusion-prompt-library-zh_CN) · 仓库 · 许可标注:MIT
 - **#159 和服构文：[着物名],[带名],[装饰/材质],[纹样/氛围]** — [で、AIはなんて？ 和服プロンプトまとめ](https://ai-nante.com/kimono-prompts/) · 教程/文章 · 许可标注:未标注
@@ -316,6 +316,7 @@
 - **#1134 服装面料“物理链”与跨模型通用写法：纤维→织法/针织→表面光泽→垂坠行为→一个工艺细节；无负面框的模型改写成正向排除和“保留清单”，整段控制在 80–150 词** — [Vantaige Blog](https://vantaige.io/blog/ai-fashion-prompts-consistent-2026) · 教程/文章 · 许可标注:未标注 · 次要子分类:4.2、15.1
 - **#1194 Illustrious（WAI v17）24 个服装词同种子实测：24/24 都能出；不写颜色时 9 个会偏米色/奶油/棕；部分词自带附加物（raincoat 让街道变湿、hanfu 带发髻发簪、wedding dress 带头纱、denim jacket 带牛仔裤）** — [SirenRender Prompt Library（prompts.sirenrender.com）](https://prompts.sirenrender.com/illustrious/clothing-prompts/) · 实测 · 许可标注:未标注
 - **#1235 服装商品图六层公式：单品身份与设计点（double-breasted blazer with peak lapels）→面料与手感（navy wool crepe、heavy indigo denim slightly broken-in）→版型与结构（wide-leg、sharp pleats、oversized boxy）→与单品匹配的场景→光线→相机与成片风格** — [MockIt AI Blog（mockit.ai）](https://mockit.ai/blog/ai-prompt-fashion-clothing/) · 教程/文章 · 许可标注:未标注 · 次要子分类:4.2、5.1
+- **#1256 职业制服/角色服：先试“制服名”，不对再按「颜色＋上衣＋下装＋领口小物＋鞋＋排除项」拆写；CA 写 navy tailored jacket＋silk neck scarf＋bare head without any hat，护士写 lavender scrub top＋white trousers＋no cap，女仆写长黑连衣裙＋白领＋白荷叶边围裙；固定全身构图和灰色影棚作对照底** — [イカムフォート・プロンプト（ikam-faut.com）](https://ikam-faut.com/posts/00064/) · 教程/文章 · 许可标注:未标注
 
 ### 4.2 面料与材质(18)
 
@@ -615,10 +616,10 @@
 - **#263 绕开姿势名的偏见：改写成身体的物理位置** — [Kawaii Prompt Lab（Muscular Woman Princess-Carrying a Man）](https://kawaiipromptlab.com/en/tips/muscular-woman-princess-carry/) · 教程/文章 · 许可标注:未标注 · 次要子分类:6.6
 - **#303 “coherent anatomy”无效：用具体手位稳定手指** — [Kawaii Prompt Lab coherent anatomy 検証](https://kawaiipromptlab.com/tips/coherent-anatomy-test/) · 教程/文章 · 许可标注:未标注 · 次要子分类:6.5
 
-## 7 表情眼神(57 条)
+## 7 表情眼神(58 条)
 
 
-### 7.1 基础情绪表情(30)
+### 7.1 基础情绪表情(31)
 
 - **#20 NovelAI V4.5 表情标签热门清单** — [tags.gallery](https://tags.gallery/v4-5/face) · 实测 · 许可标注:未标注
 - **#69 n714 表情词库（情绪与笑容细分）** — [GitHub n714/stable-diffusion-prompt-library-zh_CN (MIT)](https://github.com/n714/stable-diffusion-prompt-library-zh_CN) · 仓库 · 许可标注:MIT · 次要子分类:7.2
@@ -650,6 +651,7 @@
 - **#1190 微表情按 FACS 动作单元写：AU1/AU4/AU6/AU12/AU15/AU17 等肌肉动作替代 happy/sad 标签；“基础情绪+矛盾情绪+情境修饰”三层叠加，并用 beginning/fading 写情绪处于哪一刻** — [SelfieLab Blog（selfielabstudio.com）](https://selfielabstudio.com/blog/master-micro-expression-prompts-for-ai-portrait-emotions-20260126) · 教程/文章 · 许可标注:未标注
 - **#1208 表情按部位拆写：眼（视线方向、眼睑开合、眼里有没有情绪）、眉（皱/松/抬/单侧抬）、嘴（嘴角、抿、微张、闭口笑）、整体肌肉张力；并用叙事语境与光线方向决定同一表情被怎么读** — [Floniks Learn（floniks.com）](https://floniks.com/learn/prompting/facial-expression-and-emotion-prompts) · 教程/文章 · 许可标注:未标注
 - **#1232 表情写“看得见的肌肉动作”而不是情绪形容词：分别写视线方向、眼睑开合、眉的张力、嘴唇闭合、头部角度；视线方向与头部朝向分开写；眼睛作为第一焦点，写清角膜缘环、虹膜深度、下眼睑湿润边和与主光一致的眼神光** — [UNIP（unip.dev，@IamEmily2050）](https://unip.dev/posts/human-portrait-director/) · 教程/文章 · 许可标注:未标注
+- **#1252 表情别拆眉眼嘴，改写“事件＋感受＋情绪指向谁”；复合情绪写“事件＋主情绪＋次情绪＋为什么要掩饰/表现＋外在表现＋没藏住的痕迹”，只留一两处可见细节，并声明事件只用于解释表情、保持原人物场景构图** — [觉醒AI知识库（jxxy.net，原文 @nanyuan0412）](https://www.jxxy.net/ai/articles/ai-emoji-prompt-guide/) · 实测 · 许可标注:未标注
 
 ### 7.2 笑容与害羞红晕(4)
 
@@ -687,10 +689,10 @@
 - **#1046 动漫眼睛的四层写法：上睫毛线与眼白阴影 → 双色渐变虹膜 → 瞳孔图形（星形、同心环、竖瞳）→ 多个眼神光与沿虹膜下缘的月牙副高光；斗鸡眼/死鱼眼分别用 symmetrical gaze direction 与 glossy catchlights 修** — [AnimeGirl.vip Blog](https://animegirl.vip/blog/anime-eye-reflection-and-iris-shading-guide) · 教程/文章 · 许可标注:未标注
 - **#1059 视线与手部小信号：手要“有事做”（叉腰、插兜、捧杯、松抱臂），视线要配合动作——身体转开而眼睛看镜头形成被抓拍感；直视镜头=自信投入，望远方=怅然电影感，闭眼仰头=平静** — [RealAIGirls](https://www.realaigirls.com/0627-ai-art-posing-body-language-dynamic-natural-figures-guide.html) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.3、7.3
 
-## 8 风格胶片(98 条)
+## 8 风格胶片(99 条)
 
 
-### 8.1 画风与媒介(42)
+### 8.1 画风与媒介(43)
 
 - **#73 n714 起手提示词：Photo/Lineart/CG/画质词** — [GitHub n714/stable-diffusion-prompt-library-zh_CN (MIT)](https://github.com/n714/stable-diffusion-prompt-library-zh_CN) · 仓库 · 许可标注:MIT · 次要子分类:18.1
 - **#88 Jio7 分类库：年代/画风 (style) 标签** — [Hugging Face Jio7/danbooru-tags-classified (MIT)](https://huggingface.co/datasets/Jio7/danbooru-tags-classified) · 标签表/词频 · 许可标注:MIT
@@ -734,6 +736,7 @@
 - **#846 背景表现标签（非场所）：单色 ○ background、gradient / halftone / greyscale with colored background；花纹 argyle / checkered / honeycomb / polka dot / sunburst background；母题 floral / bubble / sparkle / paw print background；媒介 watercolor / paper / sketch background；边框 outside border、fading border** — [開発室RIN (rin87.com)](https://rin87.com/sd-background-prompt/) · 教程/文章 · 许可标注:未标注 · 次要子分类:1.3、1.5
 - **#953 2D 动画视频提示：画风块单独成段、放最前、每个镜头原样复用（Japanese 2D anime, clean linework, flat colors / hand-drawn cel animation, flat cel shading, crisp shadow edges / 2D watercolor animation, painted backgrounds / charcoal sketch animation, visible paper texture）；夸张表情按时间顺序写“正常 → 突然变形（瞳孔缩成点、下巴掉下、五官简化成线）→ 停住”** — [Arcloop Handbook](https://arcloop.ai/handbook/en-US/how-to-write-2d-anime-animation-prompts) · 教程/文章 · 许可标注:未标注 · 次要子分类:15.1
 - **#1243 动漫模型提示词用“混合写法”：一句散文交代谁在哪做什么（姿势与构图），后面接逗号分隔的风格标签尾巴；风格词放最后、明确点名具体画风而不是只写 anime；不要在动漫提示词里塞 85mm、f/1.8 等摄影词** — [eroq（eroq.ai）](https://eroq.ai/blog/anime-ai-image-prompts) · 实测 · 许可标注:未标注 · 次要子分类:15.3
+- **#1254 动漫成人角色防“画小”：主体层先写原创角色＋职业＋年龄类别（adult baker / adult coffee shop owner）；出图偏幼时只追加 adult proportions, mature face shape, less childlike expression 小改而非重写；cel-shaded 画风要特别留意脸偏幼** — [Imagic AI Blog（imagic-ai.com）](https://imagic-ai.com/blog/ai-anime-generator) · 教程/文章 · 许可标注:未标注 · 次要子分类:19.1
 
 ### 8.2 上色与塗り(8)
 
