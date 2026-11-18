@@ -2,10 +2,10 @@
 
 阿燐整理的提示词资料:对公开教程、文章、仓库、实测的摘要、短提示词短语与来源链接。**许可不明或限制性许可的来源只保留摘要与链接,不转载原文。**
 
-共 947 条。按「大类 → 子分类」排列;每条给出主题、来源链接、来源许可标注。摘要、提示词全文见 `data/general/collected_refs.jsonl.gz`。
+共 960 条。按「大类 → 子分类」排列;每条给出主题、来源链接、来源许可标注。摘要、提示词全文见 `data/general/collected_refs.jsonl.gz`。
 
 
-## 1 场景主题(76 条)
+## 1 场景主题(77 条)
 
 
 ### 1.1 室内与居所场景(11)
@@ -30,7 +30,7 @@
 - **#819 朱伊印花 Toile de Jouy：单色（靛蓝、黑或砖红）印在米白底上的“铜版雕刻线描田园叙事场景”，必须给出具体小场景（牧羊人、柳树、农舍、蜿蜒小河）并写 cross-hatching、no flat fills，否则会退化成大马士革花纹或平涂插画** — [PromptKoi / Mastering AI Art / Prompt Library / srefs.co](https://promptkoi.com/prompts/flux/vintage-toile-de-jouy-pattern/) · 实测 · 许可标注:未标注
 - **#1001 印度婚礼/节庆照片编辑：一条提示只写一个仪式瞬间（haldi 姜黄礼、mehendi、sangeet 上 lehenga 旋成整圆、从正上方俯拍 mandap 的七步绕火 pheras、vidaai 送别；Diwali 点 diya 与灯串、Chhath 河坛黎明献祭、Sharad Purnima 月下 kheer、Dev Deepawali 瓦拉纳西河坛泥灯），写清每人穿什么、手在哪、光怎么落，并要求“冷静自然色”——避免整片橙色 golden glow 把红绸变棕、皮肤变塑料** — [WowPrompt Blog](https://wowprompt.in/blog/indian-wedding-ai-photo-editing-prompts) · 实测 · 许可标注:未标注 · 次要子分类:5.2
 
-### 1.3 天气与季节(35)
+### 1.3 天气与季节(36)
 
 - **#151 季节画四要素：服装、母题、光线、天气统一** — [りんかイラスト 季節・天気タグガイド](https://rinkaillust.com/prompt-library/guide/season-weather/?lang=en) · 教程/文章 · 许可标注:未标注
 - **#152 天气天候标签 46 种一览** — [で、AIはなんて？ 天気・天候のプロンプト46種](https://ai-nante.com/weather-prompt-catalog/) · 教程/文章 · 许可标注:未标注
@@ -67,6 +67,7 @@
 - **#1100 系列场景先写「世界设定表」再出图：锁定建筑天际线、色板（hex+饱和度）、材质与磨损、布光语言、镜头语言、地理布局、文化与标识、天气氛围八个维度，每个维度做成固定词组，每条提示都原样注入** — [ingoStudio](https://ingostudio.com/filmmaking/worldbuilding/) · 教程/文章 · 许可标注:未标注 · 次要子分类:1.5、2.3
 - **#1162 环境/场景提示词三步法：具体地点类型+三层纵深与一个尺度参照，再加时间天气和两处“有人生活过”的痕迹；堆 epic/vast/breathtaking 只会得到千篇一律的明信片** — [Mahsan（mahsan.app）](https://mahsan.app/library/ai/environment-prompts/) · 教程/文章 · 许可标注:未标注
 - **#1218 环境/背景四层结构：前景锚点（左下三分点的小屋、石头）→中景动线（蜿蜒小路、远处羊群）→背景层叠（“ridges fading into haze”）→大气层（薄雾、尘埃光点）；画面发平时先问“缺了哪一层”，十有八九是大气** — [Dynamic Duniya（dynamicduniya.com）](https://dynamicduniya.com/tutorials/prompt-engineering/prompt-engineering-for-image-generation/creating-backgrounds-landscapes-and-environments-with-ai) · 实测 · 许可标注:未标注 · 次要子分类:2.4
+- **#1248 生活感客厅背景：先定沙发、窗、电视、矮桌四件的位置作骨架，再选一个“主题小物”（被炉、全家福、唱片机等）当主角，其他家具当配角；时间靠 morning/night/sunset、天气靠 rainy/snow outside 切换，并在沙发前留空地放人物** — [flosynvia（flosynvia.com）](https://flosynvia.com/2026/10/13/7793/) · 实测 · 许可标注:未标注
 
 ### 1.4 奇幻与节日主题(5)
 
@@ -99,7 +100,7 @@
 - **#1012 手机商品照“诚实”修图：编辑指令一步只改一处并写检查点（Replace the background with pure white (#FFFFFF). Keep the product and its natural contact shadow unchanged.）；分清可接受（换背景、去灰尘、平衡光线、拉正、移除道具）与失实（改颜色、给二手货去划痕、抹平质感、添加功能）；颜色须与日光下实物一致；生活方式场景图要让商品保持原样、只围绕它造景** — [The Prompt Index](https://www.thepromptindex.com/prompt/1359-ai-edit-prompts-to-fix-phone-product-photos-honestly) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.1、15.2
 - **#1206 建立镜头（establishing shot）：让场景当主体——写“extremely wide establishing shot showing the entire location”、多栋建筑/全貌可见、人物“tiny in the distance”，并用前景引导物（台阶）把视线带入** — [MoodNode Prompt Library（moodnode.ai）](https://moodnode.ai/tools/prompt-library/p/establishing-shot) · 教程/文章 · 许可标注:未标注
 
-## 2 景别构图(163 条)
+## 2 景别构图(165 条)
 
 
 ### 2.1 景别与取景(13)
@@ -210,7 +211,7 @@
 - **#1152 GPT Image 2 的模型特性：LLM 读全文，可写结构化简报、行内否定与 JSON；写实用“photorealistic”一词最可靠，镜头词只当构图意图；文字放直引号＋verbatim；多参考图按序号标角色，每轮重复“保留清单”** — [Runware Docs](https://runware.ai/docs/models/openai-gpt-image-2/guides/prompting.md) · 教程/文章 · 许可标注:未标注
 - **#1213 相机词按 Google 写实模板放在句尾：“photorealistic [景别] of [主体] in [场景]，光线，shot from a [机位] with a [镜头]”；一次只选一个机位和一个镜头，先定画幅，再一次只换一个变量** — [Lilach Bullock（lilachbullock.com）](https://www.lilachbullock.com/camera-angle-prompts-for-ai/) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.1、2.2
 
-### 2.4 构图法则与画幅(51)
+### 2.4 构图法则与画幅(53)
 
 - **#81 nai5-prompting 插画构图法：先问“第一眼看什么”** — [GitHub Miint-Sunny/nai5-prompting (GPL-3.0，仅概述，不摘录)](https://github.com/Miint-Sunny/nai5-prompting) · 仓库 · 许可标注:GPL-3.0(仅概述/不摘录) · 次要子分类:15.1、16.1
 - **#119 三分法构图：主体放三分线/交点并描述剩余画面** — [AutoWeeb Blog](https://autoweeb.com/blog/how-to-create-the-rule-of-thirds-for-ai-anime-composition) · 教程/文章 · 许可标注:未标注
@@ -263,6 +264,8 @@
 - **#1148 “先写镜头再写主体”：景别→焦段→机位→运动感→光的固定顺序，只加一条构图规则（前中后景分层 / 引导线 / 有意图的留白），低机位、俯拍、荷兰角各对应一种情绪** — [Nat Currier (nat.io)](https://nat.io/blog/ai-camera-composition-guide) · 教程/文章 · 许可标注:未标注
 - **#1183 构图五件套按“摄影师给团队的拍摄说明”来写：三分线+视线朝空白、引导线指向主体、前中后三层各写内容与虚实、框中框、负空间写占比** — [Cliptics Blog（cliptics.ai）](https://cliptics.ai/blog/pro-level-ai-prompts-lighting-composition-camera-language-2026/) · 教程/文章 · 许可标注:未标注
 - **#1197 主体位置要写成“哪一侧三分之一+其余画面是什么”：rule of thirds 只是弱提示；留白必须写成一个具体平面（素墙、天空、静水、雾），否则会被填满；先定画幅再写构图** — [IMAGEKA Guides（imageka.com）](https://imageka.com/pages/guide-color-composition.php) · 教程/文章 · 许可标注:未标注
+- **#1249 构图词哪些可靠哪些不可靠：centred、rule of thirds、negative space、symmetrical、close/tight/wide framing 可靠，“杯子在左、书在右”这类精确摆位只是碰运气；画幅比例是“强制”而非“请求”，先改比例再加构图词；要留字位就写“空”，别写“留标题位”** — [AI Tutorials（aitutorials.co.uk）](https://www.aitutorials.co.uk/prompting/image-prompt-tips/controlling-composition-and-framing/) · 教程/文章 · 许可标注:未标注
+- **#1262 改提示词的收敛循环：先随机种子出 4–8 张，挑“构图最接近”的那张（不是最好看的）锁种子，每次只改一处再生成，差异就是这处改动的效果；收尾时解锁种子再跑 4 张，都在目标附近才算提示词写对了，否则只是调到了一个好种子** — [Promptfy AI Blog（promptfyai.com）](https://promptfyai.com/blog/seeds-and-iterating-without-starting-over) · 实测 · 许可标注:未标注
 
 ### 2.5 镜中与反射(5)
 
@@ -348,10 +351,10 @@
 
 - **#450 机甲少女：只写 mecha girl 不够，要把装甲、兵装、内部机构、推进器逐项点名** — [で、AIはなんて？ メカ少女を描くプロンプト集](https://ai-nante.com/mecha-girl-prompts/) · 教程/文章 · 许可标注:未标注
 
-## 5 光影氛围(119 条)
+## 5 光影氛围(121 条)
 
 
-### 5.1 光源与方向(42)
+### 5.1 光源与方向(43)
 
 - **#15 光线先给“来源”：窗光/侧光示例** — [DEV / Prompt Image Atlas](https://dev.to/promptimageatlas/midjourney-lighting-prompts-give-the-light-somewhere-to-come-from-41oe) · 实测 · 许可标注:未标注 · 次要子分类:5.6
 - **#53 Danbooru 光照标签分组 tag_group:lighting** — [Danbooru Wiki (社区维基，无明确开源许可，仅摘要+短标签)](https://danbooru.donmai.us/wiki_pages/tag_group:lighting) · 社区维基 · 许可标注:无明确许可(仅摘要/链接)
@@ -395,6 +398,7 @@
 - **#1170 14 种电影布光的中英双语提示词：伦勃朗、蝴蝶光、分割光、轮廓光、逆光剪影、黄金/蓝调时刻、霓虹、体积光、低调/高调、烛光、窗光、底光** — [VideoLens Blog（videolens.cc）](https://videolens.cc/en/blog/cinematic-lighting-guide) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.5
 - **#1184 别写 cinematic lighting：按“方向→软硬→光源/布光→色温→氛围”五层写，四个词胜过十个；并避开五组互相打架的光照词** — [Prompt Architects（prompt-architects.com）](https://prompt-architects.com/blog/206-lighting-vocabulary-for-ai-image-prompts-40-terms) · 实测 · 许可标注:未标注
 - **#1220 用“光的职责”写布光而不是堆术语：主体→场景→主光源→方向→软硬→补光/阴影浓度→轮廓光→色温/时段；rim light 只在需要分离（暗主体+暗背景、产品、舞台）时加，否则会变成廉价发光描边** — [Hardest Stories（hardeststories.com）](https://hardeststories.com/ai-image-lighting-prompts/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.5
+- **#1250 人像光三层写法（光源与方向 / 光质 / 情绪）替代“dramatic lighting”；明暗对照写“单一硬光、no fill light、半张脸沉入纯黑”；深肤色人像用具体肤色词（mahogany、espresso、amber undertones）+ 颧骨暖高光 + 轮廓光分离，并排除 ashy tones / washed-out** — [PhotoGPT AI Guides（photogptai.com）](https://www.photogptai.com/guides/complete-lighting-prompt-guide-for-portrait-photography) · 实测 · 许可标注:未标注
 
 ### 5.2 时段与天空光(12)
 
@@ -462,7 +466,7 @@
 - **#998 影棚布光方案五式（SetMyLight 布光图转写成提示）：①羽化柔光伞主光（左前，斜扫而非直打）+ 右侧白泡沫板被动补光 + 后方网格八角盒轮廓光 → 端庄雕塑感时装 ②单灯打黄色滤片照向白布帐篷顶（右后高位 8–9ft，挡光板控溢光）+ 左侧大椭圆反光板 → 暖梦幻概念大片 ③带网格长方柔光箱左上方下压做主光 + 左后八角盒打头发肩线 → 冷峻雕塑感 ④粉色八角盒+网格右侧主光 + 两根绿色灯管竖放在人物后两侧做边缘光并入画 + 烟雾 → 赛博霓虹 ⑤左侧大伞反射主光 + 右后网格头发光 + 左侧聚光菲涅尔投一束暖色重点光 → 暖调奢华美妆** — [SetMyLight (siddology)](https://setmylight.siddology.com/setup/warm-gelled-fabric-tent-editorial-portrait-0ca995e9) · 实测 · 许可标注:未标注
 - **#1066 黄金时刻光只写 golden 等于没写方向：每条提示必须选定四种布光之一（逆光轮廓/侧光/顺光带补光/日落后阴影光），逆光时还要写出把光反回脸上的具体表面（白衬衫、湿沙、浅色水泥路、玻璃栏杆、机位左侧反光板）** — [Make AI Photos](https://www.makeaiphotos.com/blog/golden-hour-ai-photo-prompts/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.1
 
-### 5.7 明暗对比与阴影(25)
+### 5.7 明暗对比与阴影(26)
 
 - **#56 Civitai 动态光照悬赏文：影响光照的通用词** — [Civitai 公开文章 (无明确许可，仅摘要+短标签)](https://civitai.com/articles/10376) · 教程/文章 · 许可标注:无明确许可(仅摘要/链接) · 次要子分类:5.1
 - **#127 明暗对比与反射/折射标签** — [で、AIはなんて？ 光のプロンプト大全（コントラスト・反射）](https://ai-nante.com/light-prompt-guide/) · 实测 · 许可标注:未标注
@@ -489,15 +493,16 @@
 - **#815 刮擦装饰 Sgraffito：图像是“刮掉上层露出下层”得来的，不是画上去的——写清两层对比色（陶器上是彩色化妆土盖在陶胎上，墙面是两层不同色的灰泥），线条是清脆、有刀口斜边的刻线，凹槽里比表面低一点；和刮画板（黑墨层刮白线）分开：sgraffito 是陶或灰泥的真实厚度与质感** — [Wikipedia / ArtTechniques / British Ceramics Biennial / Wikisource](https://arttechniques.com/techniques/sgraffito) · 实测 · 许可标注:未标注
 - **#1040 五层光效叠加公式：自然底光→一种影棚布光法→一种空气效果→一种色光→一种胶片/写实标签，每层只选一两个；防过曝要把阴影一侧也写出来，光向要“位置+软硬+造成的阴影”再配一个具名光源** — [ZeroSkillAI](https://zeroskillai.com/midjourney-lighting-prompts-cheat-sheet-2026/) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.1、5.6
 - **#1165 道具与物体“落地”写法：用 sitting on + 具体台面材质 + contact shadow directly beneath 杜绝悬浮/穿模；倒影与阴影要和同一光源一致，材质写清纹理与光泽** — [Prompt Library（promptlibrary.space）](https://www.promptlibrary.space/blog/how-to-prompt-ai-images-for-realistic-hands-props-and-physical-logic) · 教程/文章 · 许可标注:未标注 · 次要子分类:5.1、13.1
+- **#1259 手和硬物接触（以弹吉他为例）：别把 playing guitar 当氛围词，要写成“机械关系”——先锁物体几何（rigid straight neck、exactly six continuous strings），再给两只手分工（按弦手 thumb behind the neck、扫弦手前臂搭琴身＋接触阴影），用小饰品锁左右手，焦平面放在琴颈和两只手腕上** — [Promptayesha（promptayesha.com）](https://promptayesha.com/ai-cant-fret-a-guitar-without-breaking-fingers/) · 教程/文章 · 许可标注:未标注
 
 ### 5.9 其他/待细分(1)
 
 - **#348 风词 26 条件实测：fluttering 一词同时吹动裙子和头发** — [Kawaii Prompt Lab 風になびく髪と服 26条件検証](https://kawaiipromptlab.com/tips/wind-effect-descriptor-test/) · 实测 · 许可标注:未标注
 
-## 6 姿势动作(88 条)
+## 6 姿势动作(89 条)
 
 
-### 6.1 站立与全身姿态(22)
+### 6.1 站立与全身姿态(23)
 
 - **#12 位置与全身姿态标签（Waifu Diffusion/NovelAI 实测）** — [ゲーム開発65535](https://gamedev65535.com/entry/prompot_position/) · 实测 · 许可标注:未标注 · 次要子分类:2.1
 - **#84 ffdkj 热度榜：姿势标签** — [GitHub ffdkj/ffdkj-Danbooru_Tag-Chinese-English-Translation-Table (MIT；数值为 2026-10-24 抓取的 post_count)](https://github.com/ffdkj/ffdkj-Danbooru_Tag-Chinese-English-Translation-Table) · 标签表/词频 · 许可标注:MIT
@@ -521,6 +526,7 @@
 - **#1113 动作不对称：自然动作要写“谁先动”（主导侧）、“谁来撑”（支撑侧）、重心从哪移到哪、一条动作弧线、一个滞后的次要物件和收势定格，避免左右镜像的“木偶”姿势** — [ArcLoop Handbook](https://arcloop.ai/handbook/en-US/motion-asymmetry-natural-action) · 教程/文章 · 许可标注:未标注 · 次要子分类:6.4、6.5
 - **#1131 姿势用“可见的身体力学”写：人数与身份→身体朝向→重心与四肢→手在做什么→头与视线→表情→接触；转身时头、肩、躯干、胯分别写朝向，动作写清处于哪一相（起跳/最高点/落地）** — [AI Scribbles](https://www.aiscribbles.com/guide/poses-gestures-and-expressions/) · 教程/文章 · 许可标注:未标注
 - **#1236 时装人像的四个姿势模块：目录站姿（3/4 侧身、放松的 contrapposto、重心在后脚、下巴微收、轻微 S 线）、T 台中步（交叉步、外套飘动、明显胯部位移）、手框脸美妆特写、方块凳上的坐姿扭转（一膝抬起、视线离开镜头）；每个模块都配镜头与布光** — [Sider Blog（sider.ai）](https://sider.ai/blog/ai-tools/fashion-portrait-workflow-seedream-4-0-prompts-for-poses-fabrics-and-skin-tones) · 教程/文章 · 许可标注:未标注
+- **#1251 自然姿势写“动词+理由”而非 pose：一张图只抓一个瞬间；摆拍时用重心落一条腿、身体侧转脸回正、找东西靠、给双手安排位置；每只入镜的手都要有任务，不重要时就故意藏起来；动作要匹配景别** — [Hallibus Guides（hallibus.com）](https://hallibus.com/guides/natural-poses-and-expressions) · 教程/文章 · 许可标注:未标注
 
 ### 6.2 坐姿(5)
 
@@ -808,10 +814,10 @@
 
 - **#435 左右不同与特殊妆：mismatched eyeshadow、two-tone eyeshadow、hikimayu、aegyo sal** — [aiaicreate Stable Diffusionのメイクプロンプト一覧](https://aiaicreate.com/sd-prompt-makeup/) · 教程/文章 · 许可标注:未标注 · 次要子分类:17.2
 
-## 10 发型饰品(61 条)
+## 10 发型饰品(64 条)
 
 
-### 10.1 发型发色与刘海(44)
+### 10.1 发型发色与刘海(46)
 
 - **#19 发型标签分组（Danbooru 发型分类）** — [Latent Tags (Danbooru)](https://tags.latent.moe/en/g/hair_styles) · 教程/文章 · 许可标注:未标注
 - **#51 NovelAI 文档：发长/发型/刘海/呆毛分类** — [NovelAI Docs (官方文档，版权保留，仅摘要+短标签)](https://docs.novelai.net/en/image/tutorial-charactercreation/) · 官方文档 · 许可标注:官方文档版权保留(仅摘要)
@@ -857,12 +863,15 @@
 - **#1193 头部饰品中英对照细分表：头带/发夹/头花/头饰按材质再细分（珍珠发夹、梳形发夹、羽毛头饰、水晶头饰），并附耳饰、眼镜框型、颈部饰品与易冲突发型词提醒** — [优源网（youyuanvip.com）](https://www.youyuanvip.com/1970.html) · 教程/文章 · 许可标注:未标注 · 次要子分类:10.2
 - **#1214 头部饰品 Danbooru 标签按部位分组：髪飾り（hair tubes / hair bell / hair bobbles / kanzashi / hair stick…）与頭・額（head chain / laurel crown / bindi / triangular headpiece…）；新模型更吃 Danbooru 标签，弱的标签调权重或减人数** — [aiaicreate（aiaicreate.com）](https://aiaicreate.com/sd-prompt-hair-accessory/) · 教程/文章 · 许可标注:未标注 · 次要子分类:10.2
 - **#1225 发型提示词按九格表写：任务（生成/编辑）→要保留的身份特征→剪裁几何（French bob、butterfly layers、wolf cut）→长度落点（下颌/锁骨/肩/背中）→发质（loose wave、3B curl、4C coil）→颜色与分布（espresso base + copper ribbons）→完成度（air-dried、glossy blowout、soft flyaways）→机位→不许改的东西** — [MiniMax H3 AI Video Blog（minimaxh3.tv）](https://minimaxh3.tv/blog/hairstyle-prompts-for-ai) · 教程/文章 · 许可标注:未标注
+- **#1244 编发/盘发写“结构 + 质感 + 能看见它的角度 + 最多一个饰品”：single French braid、two Dutch braids、low chignon at the nape 这类可数结构比 elegant updo 稳定；背面或三分之四侧面才看得清编发；多个发夹+丝带+夹子会糊成一团** — [femimg（femimg.com）](https://femimg.com/blog/makeup-and-hair-led-beauty-editorial-with-ai) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.2
+- **#1257 发型按美发师思路拆成「前发／侧发／后发」三块写，并主动做“减法”防头顶两侧鼓包（ハチ張り）：写 light layers、ears visible、tucked behind ears 收住侧面体积；扎发写 high/low ponytail＋tied hair 固定结的位置；渐变色写 gradient hair fading into…towards the tips；负面写头发融进衣服/分叉毛束** — [LIBER shibuya BLOG（liber-shibuya.com）](https://liber-shibuya.com/blog/hair-prompt-stable-diffusion-guide/) · 教程/文章 · 许可标注:未标注
 
-### 10.2 发饰与首饰(3)
+### 10.2 发饰与首饰(4)
 
 - **#17 发饰/饰品标签基础（hair ornament 系列）** — [りんかワールド 饰品指南](https://rinkaillust.com/prompt-library/guide/accessory-tags/?lang=en) · 教程/文章 · 许可标注:未标注
 - **#71 n714 发饰/首饰/装饰词库** — [GitHub n714/stable-diffusion-prompt-library-zh_CN (MIT)](https://github.com/n714/stable-diffusion-prompt-library-zh_CN) · 仓库 · 许可标注:MIT
 - **#379 发饰故障表：不出、变多、颜色跑到衣服上、花浮在空中** — [Rinka Illust 髪飾りのプロンプト一覧（失敗と直し方）](https://rinkaillust.com/prompt-library/guide/hair-accessory-prompts/) · 教程/文章 · 许可标注:未标注 · 次要子分类:10.1
+- **#1258 耳饰不被“吃掉”：写明金属＋款式＋形状（gold stud earrings with a small pearl / silver hoop earrings），加 sharp details on jewelry、realistic metal texture、earrings remain intact；头发别在耳后、头稍转让耳垂和耳饰连接点露出来——耳朵被头发盖住或贴平时耳饰最容易融进皮肤** — [Portraze Guides（portraze.com）](https://portraze.com/guides/how-to-stop-ai-from-eating-your-earrings-in-headshots) · 教程/文章 · 许可标注:未标注 · 次要子分类:10.5
 
 ### 10.3 眼镜(4)
 
@@ -932,7 +941,7 @@
 
 - **#259 脸上沾食物与食物小道具：cream on face / crumbs** — [で、AIはなんて？ 食べる・食事シーンのプロンプト一覧（食べ物との位置関係）](https://ai-nante.com/eating-prompt/) · 教程/文章 · 许可标注:未标注
 
-## 15 提示词结构与技巧(66 条)
+## 15 提示词结构与技巧(67 条)
 
 
 ### 15.1 整体结构与顺序(34)
@@ -972,7 +981,7 @@
 - **#1145 FLUX.2 官方四段结构 Subject＋Action＋Style＋Context 与优先级（主体→关键动作→关键风格→必要环境→次要细节），10–30/30–80/80+ 三档长度；hex 色码挂在具体物件上，多参考图逐张写明用途** — [AI Tool Blog](https://aitool-blog.com/flux/guides/flux-2-prompt-guide/) · 教程/文章 · 许可标注:未标注
 - **#1229 词序要不要讲究看模型：CLIP 系（SD1.5/SDXL，77 token 上限）靠前的词权重大、超长会被截断，主体必须前置；T5/大语言模型编码器（SD3.5、FLUX）基本按语义理解，自然语序就行；风格放最前则风格主导、主体放最前则主体主导；安全默认顺序：主体动作→场景→光→机位/风格** — [C.W.K. Creative Works of Knowledge（creativeworksofknowledge.com）](https://www.creativeworksofknowledge.com/en/cwk-quests/generative-media-foundations/prompting/lesson3/) · 实测 · 许可标注:未标注 · 次要子分类:2.2、15.2
 
-### 15.2 权重与括号语法(20)
+### 15.2 权重与括号语法(21)
 
 - **#75 tag-skill：SD 语法 AND / [a|b] / [from:to:step] / BREAK** — [GitHub 1756141021/tag-skill (MIT)](https://github.com/1756141021/tag-skill) · 仓库 · 许可标注:MIT
 - **#76 tag-skill：权重逻辑与画面稳定性** — [GitHub 1756141021/tag-skill (MIT)](https://github.com/1756141021/tag-skill) · 仓库 · 许可标注:MIT
@@ -994,6 +1003,7 @@
 - **#1129 提示词强调的正确顺序：先调语序→再删冲突句→再换更具体的词→最后才加权重（只给 1–2 个名词短语加 1.1–1.4）；Midjourney 的 :: 分段权重与 SD 括号权重的可用范围不同，测试必须固定种子** — [trendingprompt](https://trendingprompt.org/blog/prompt-weighting-and-emphasis/) · 实测 · 许可标注:未标注
 - **#1198 权重三件事：括号叠到第三层基本过拟合、(word:1.3) 数值权重只在支持的工具里生效（否则被当成字面字符）、词序本身就带隐性权重——加了权重仍无效先查是不是被埋在后面；一次只调一个词** — [FaxianAI Blog（image.faxianai.com）](https://image.faxianai.com/en/blog/prompt-weight/) · 实测 · 许可标注:未标注
 - **#1215 权重语法速查：(tag:1.2) 最可读，() ×1.1、(()) ×1.21、[] ×0.91，NovelAI 的 {} 约 ×1.05 且在 WebUI 里无效；安全区 0.8–1.4、1.5 以上易崩；一张图一个主元素 1.3、配角 1.1；BREAK 放在角色特征与背景之间防串色** — [Rinka AI Illust（rinkaillust.com）](https://rinkaillust.com/prompt-library/guide/prompt-weight-syntax/?lang=en) · 教程/文章 · 许可标注:未标注
+- **#1246 汗水描述词对比测试：sweaty skin（2 token）已能稳定出光泽、集中在锁骨到上胸；glistening with sweat 与之几乎无差别；想控制出汗位置就写部位（sweat dripping from forehead and neck），水珠和湿发会集中到指定部位** — [Kawaii Prompt Lab（kawaiipromptlab.com）](https://kawaiipromptlab.com/en/tips/sweaty-skin-descriptor-test/) · 实测 · 许可标注:未标注
 
 ### 15.3 标签与自然语言(5)
 
@@ -1019,10 +1029,10 @@
 
 - **#863 图中文字字体：Impact / Anton 风格——超粗压缩无衬线全大写、字距极紧、字腔极小、白字粗黑描边，用于梗图标题、小报头条、抗议牌和健身海报；别写成更轻透的 Trailer Condensed 或宽圆的 Creator Hook Black** — [Director's Lookbook](https://directorslookbook.app/look/impact/) · 教程/文章 · 许可标注:未标注
 
-## 16 多角色与互动语法(32 条)
+## 16 多角色与互动语法(33 条)
 
 
-### 16.1 多角色提示词结构(7)
+### 16.1 多角色提示词结构(8)
 
 - **#65 Anima 管线：人数标签 + 成年锚点 + 位置绑定** — [GitHub Tomiigo/anima-prompt-pipeline (MIT)](https://github.com/Tomiigo/anima-prompt-pipeline) · 仓库 · 许可标注:MIT · 次要子分类:16.4、19.1
 - **#194 多角色提示词结构：质量词，共用场景 BREAK 角色A BREAK 角色B** — [Tensor.Art 文章（Multi-character Prompting & Inpainting）](https://tensor.art/articles/824178785285887267) · 教程/文章 · 许可标注:未标注
@@ -1031,6 +1041,7 @@
 - **#1149 Anima 多角色不串色：人数与场景用标签，每个人用“一句话＝位置＋外貌＋服装＋动作”（The girl on the left has…），实测纯标签 5 张中只有 1 张对，逐人成句 5/5** — [KOBO Lab (localai-kobo.com)](https://localai-kobo.com/anima-multiple-characters/) · 实测 · 许可标注:未标注
 - **#1176 双人同框不用 LoRA 的四段式写法：先锁人数→再定左右/前后→每人一整块写完发色瞳色服装→共享的背景光线风格放最后** — [PixAI Blog（blog.pixai.art）](https://blog.pixai.art/en/two-character-prompt-no-lora/) · 实测 · 许可标注:未标注 · 次要子分类:5.1、10.1
 - **#1245 SDXL 多角色+多 LoRA：全局行先声明站位（A at right, B at left）和互动，再用 right: / left: 分块各写各的触发词与细节；两个角色 LoRA 都降到 0.6–0.7（起点 0.65），触发词只放在各自区块；负面加 feature mixing、swapped outfits；DiT 模型可直接用散文写互动** — [PixAI Blog（blog.pixai.art）](https://blog.pixai.art/en/multi-character-lora-generation-guide/) · 教程/文章 · 许可标注:未标注
+- **#1260 Forge Couple（Attention Couple，SD1/SDXL/Anima）分区写多角色：Basic 模式“一行＝一块区域”（横向从左到右、纵向从上到下），每行都先写总人数（2girls…）再写该角色；首行或末行可设为全局背景；多人共用的服装/表情用 {key:内容} 定义一次、其他行写 {key} 复用；仓库 GPL-3.0** — [GitHub Haoming02/sd-forge-couple（GPL-3.0）](https://github.com/Haoming02/sd-forge-couple) · 仓库 · 许可标注:GPL-3.0(仅概述/不摘录) · 次要子分类:16.2
 
 ### 16.2 区域分配与重叠处理(21)
 
@@ -1066,7 +1077,7 @@
 
 - **#165 solo 与 solo focus 的区别、防分身** — [スタジオ真榊 画像生成プロンプト大辞典（illustrious向け）](https://studiomasakaki.com/articles/10051055/) · 教程/文章 · 许可标注:未标注
 
-## 17 模型特性与参数(51 条)
+## 17 模型特性与参数(52 条)
 
 
 ### 17.1 NovelAI 特性(4)
@@ -1119,7 +1130,7 @@
 - **#1227 Z-Image Turbo 与 Z-Image 基础版参数别混用：Turbo 是蒸馏模型，8 步（官方代码写 9 inference steps）、CFG 1（即关闭引导）、不支持负面提示——CFG 1 时 ComfyUI 直接丢掉负面条件；基础版 28–50 步、guidance 3–5、支持负面；shift 越高越多步数花在早期定构图和脸** — [AI Empire（joinaiempire.com）](https://joinaiempire.com/guides/z-image-turbo-settings) · 实测 · 许可标注:未标注
 - **#1241 Z-Image Turbo 官方参数：8 次 DiT 前向（Diffusers 里 num_inference_steps=9）、guidance 0、无负面提示词、FlowMatchEuler 调度 shift 3.0、1024² 默认、最长 512 token；不要加步数/CFG，排除项改写成正面描述，宽景靠画幅比例而不是写 wide shot** — [Windpaint（windpaint.ai）](https://windpaint.ai/blog/z-image-turbo-prompt-guide) · 实测 · 许可标注:未标注
 
-### 17.4 LoRA 与扩展(8)
+### 17.4 LoRA 与扩展(9)
 
 - **#476 像素画：只写 pixel art 在很多模型里不生效，靠像素 LoRA 或 Pixelization 后处理** — [レベルマ Stable Diffusionでドット絵を生成する方法（note）](https://note.com/levelma/n/ne4c9067d11be) · 教程/文章 · 许可标注:未标注
 - **#628 FLUX Holga 风格 LoRA（CtrlAltArt，HF 标 MIT）：触发词 “act1vate, Shot with a Holga camera,”，强度 0.8–1（最高 1.2，越高暗角越重），用 1:1 出图最像** — [Hugging Face CtrlAltArt（MIT）/ PromptHero](https://huggingface.co/CtrlAltArt/Flux_Holga_Photography_Style) · 标签表/词频 · 许可标注:MIT
@@ -1129,16 +1140,17 @@
 - **#934 原创角色一致性四类方法与起步强度（aiofm）：参考图适配器（IP-Adapter FaceID / InstantID / PuLID）> 训练 LoRA > 事后换脸 > 文字锚点；先锁脸再管身体；PuLID weight 0.8, start 0.0, end 0.8；InstantID adapter 0.8 + ControlNet 0.5；FaceID 0.85（身份）/ 0.4（风格）；face LoRA 0.8；视频模型先出关键帧再图生视频** — [aiofm.info](https://aiofm.info/en/guides/consistent-ai-character) · 教程/文章 · 许可标注:未标注
 - **#937 手部修复四步栈（aiofm）：①预防：正面写明手在做什么（hands at her sides / holding a coffee mug），避开 showing palms；SDXL 负面 six fingers, four fingers, fused fingers…，Flux 负面无效改用正面 anatomically correct hands, five fingers visible ②手部 LoRA ≤0.6（Flux-Hands 0.4）③SDXL 用 MeshGraphormer 深度 + hand ControlNet 0.4–0.6 ④ADetailer hand_yolov8n：confidence 0.3、mask blur 6、denoise 0.5、padding 32、单独手部提示** — [aiofm.info](https://aiofm.info/en/guides/ai-hands-fix) · 教程/文章 · 许可标注:未标注 · 次要子分类:6.5、18.2
 - **#1130 Qwen 2512（Krea 托管版）模型特性：写实优先、不加艺术化“滤镜”；人像肤质与脸部结构、风景细纹理、图中文字是强项；能理解空间关系和主体互动；不支持 LoRA，想要强风格或编辑感时换模型** — [Krea Docs](https://www.krea.ai/docs/user-guide/features/qwen2512) · 教程/文章 · 许可标注:未标注 · 次要子分类:15.1
+- **#1261 同一提示词＋同一种子在 SD WebUI（A1111/Forge）和 ComfyUI 出不了同一张图：①噪声生成位置不同（ComfyUI 在 CPU、WebUI 默认在 GPU）；②权重算法不同——WebUI 会把所有权重一起归一化（加一个词等于压低其他词），ComfyUI 原样使用 (word:1.2) 不归一化，所以同样数值在 ComfyUI 里通常更猛** — [Comfy with ComfyUI（comfyui.nomadoor.net）](https://comfyui.nomadoor.net/en/notes/sdwebui-comfyui-reproducibility/) · 实测 · 许可标注:未标注 · 次要子分类:15.2
 
 ### 17.9 其他/待细分(2)
 
 - **#461 FLUX Kontext 编辑：简单直接、明说什么不变、一次只改一处（BFL 官方 skills，MIT）** — [black-forest-labs/skills flux1-models.md（MIT）](https://github.com/black-forest-labs/skills/blob/master/skills/flux-image-best-practices/rules/flux1-models.md) · 教程/文章 · 许可标注:MIT
 - **#577 Recraft 官方实务技巧：理解差就换通用风格或降低 Artistic level；Logo 文字太僵就开“避免文字”；内容贴边用 Frame+外扩；脸手用 Creative Upscale；矢量用 recraftv3_vector** — [Recraft Docs: Prompting and image generation / Vector art](https://www.recraft.ai/docs/best-practices/prompting-and-image-generation) · 教程/文章 · 许可标注:未标注
 
-## 18 质量与负面词(43 条)
+## 18 质量与负面词(44 条)
 
 
-### 18.1 质量头与画质词(11)
+### 18.1 质量头与画质词(12)
 
 - **#331 NoobAI 质量档位=人气百分位，年代标签决定画风年代** — [Local AI Master Illustrious vs NoobAI](https://localaimaster.com/blog/best-local-anime-image-model) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.1、17.2
 - **#575 FLUX.1 Krea Dev：写“真实的一刻＋光从哪来＋相机胶片”，别写 masterpiece/8k；guidance 4、28–32 步、1–1.5MP，无负面提示** — [ModelTrends.ai: FLUX.1 Krea Dev guide](https://modeltrends.ai/ai-model-guides/flux-krea-dev-guide) · 教程/文章 · 许可标注:未标注 · 次要子分类:8.3、17.3
@@ -1151,6 +1163,7 @@
 - **#1081 Illustrious 系质量词与负面词按模型给：基础版只需 masterpiece, best quality；WAI 系负面可短到 bad quality, worst quality, worst detail, sketch；要压写实感时负面加 photorealistic, realistic, 3d；absurdres 只是“大图细节”标签，不改变出图尺寸** — [MonAI Wiki](https://wiki.monai.art/en/tutorials/illustrious-prompt-guide) · 教程/文章 · 许可标注:未标注
 - **#1173 Anima 负面词应从官方短版起步：worst quality, low quality, score_1/2/3, artist name；把 Illustrious 的长负面按“质量/文字/手/构图/安全”五类拆开，按实际崩坏再加** — [lilting channel（lilting.ch）](https://lilting.ch/en/articles/anima-negative-prompt-shorten-illustrious) · 教程/文章 · 许可标注:未标注 · 次要子分类:18.2
 - **#1237 NovelAI V4.5 质量词与负面词分三组：画质杀手（worst quality、jpeg artifacts、dithering、halftone、chromatic aberration）、多余元素（text、logo、watermark、signature、blank page）、解剖与构图错误（bad anatomy、bad hands、extra digits、mob face、bad perspective、multiple views）；用负权重语法 -1::flat color:: 压低不想要的风格** — [AI Art Basics Guide 1.1（hothottuk.neocities.org）](https://hothottuk.neocities.org/en) · 实测 · 许可标注:未标注 · 次要子分类:18.2
+- **#1253 写实人脸的“反塑料”约束：提示词按 主体＋自然瑕疵＋皮肤表现＋眼/发＋光＋镜头语言＋构图＋反塑料约束 排列；强词 natural untreated skin、micro facial asymmetry、light-consistent catchlights、restrained contrast，避开 flawless、ultra beautiful、8K、HDR、symmetrical face、glowing skin** — [DADA AI Lab（dadacreative.co）](https://dadacreative.co/en/ailab/playbook/) · 教程/文章 · 许可标注:未标注 · 次要子分类:2.3
 
 ### 18.2 负面词(30)
 
