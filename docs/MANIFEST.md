@@ -3,7 +3,7 @@
 | 文件 | 大小(字节) | sha256 |
 |---|---|---|
 | data/general/categories.jsonl.gz | 740 | 6530ae8d25ee89a573c4f4938f0404de734cc104185fc39b71e2de5846886bdb |
-| data/general/collected_refs.jsonl.gz | 606562 | 19a2404467f6744e434e52cd2c7f2d2a909cb0455fb43eb7b48986fa70ebfacc |
+| data/general/collected_refs.jsonl.gz | 618989 | 5a8e7bd47c0bfb93b1f560e79085c4a9e55a5e53d5651218ebb3cbef33ee339f |
 | data/general/entries_shuaihui.jsonl.gz | 74459 | e42ee3c8be9649b0fedafbac7b48bb3a30e46f888f2af0604893fb8f5710c32d |
 | data/general/prompts_n714.jsonl.gz | 70603 | 0b51ae11d4503a2c8b79916d32b992238a39df50fcac6df0cc07c5020c73263f |
 | data/general/prompts_n714_school_benign.jsonl.gz | 901 | b8d4a92456e639047c4b5e66f601ff3c20c1fdc2482b2c50b5ef826f109ec8fd |
@@ -17,5 +17,5 @@
 | data/general/tags_school_benign.jsonl.gz | 81607 | 5b65099a5aa234782363432a8fc1dbe3be24431abf8ae5dcd435bbef3e10611d |
 | data/sources.jsonl.gz | 690 | 6ded76d097d080539d4193735d4f5c4577a4831d321a1633ee278ddcb3225440 |
 
-合计 9438498 字节(最大单文件 2079932 字节)。
+合计 9450925 字节(最大单文件 2079932 字节)。
 注:gzip 以 mtime=0 写出,重新导出得到相同内容。
